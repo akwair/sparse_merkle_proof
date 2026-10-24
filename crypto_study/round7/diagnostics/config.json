@@ -1,0 +1,14 @@
+{
+  "seed": 3407,
+  "processes": 1,
+  "repeats": 5,
+  "batch_operations": 32,
+  "rows": 540,
+  "operations": 17280,
+  "gomaxprocs": 8,
+  "allocation_ratio_threshold": 0.5,
+  "source_application": "app_001",
+  "stages": ["encode", "decode", "verify"],
+  "counter_scope": "process-wide runtime.MemStats",
+  "timing": false
+}

@@ -1,0 +1,1 @@
+{"seed":3407,"warmups":2,"repeats":21,"batches":3,"sizes":[128,512,2048],"replacement_pairs":[1,16],"queries":[1,32],"domains":["dev","confirm"],"zlib_level":6,"h1_bytes_max":0.70,"h2_bytes_max":0.95,"time_ratio_max":1.05}

@@ -1,0 +1,3221 @@
+{
+  "provenance": {
+    "round7/REPETITIONS.json": "c4328bc28190e6436eca720eb23de8f67afe105b7548ad26174082323396d02d",
+    "round7/runs/app_001/eval.json": "264fd274a122534b23e554c682e4ee8f1ac1b3c223a3ec324697348174f9e3df",
+    "round7/runs/app_001/measurements/diagnostics.json": "4148cf37f20596a9fd3edb91ead85768187daa3649c18e62ae35fcaae92043b2",
+    "round7/runs/app_001/measurements/log.jsonl": "df4ccb7102b1933c16fd31715bcd82aafc7db91bb3bcd7abab1711d6af71f927",
+    "round7/runs/app_002/eval.json": "42f1e3d296dbd0634fd932927cb9477cd13f312b86791ff38e43ed389b61e842",
+    "round7/runs/app_002/measurements/diagnostics.json": "4148cf37f20596a9fd3edb91ead85768187daa3649c18e62ae35fcaae92043b2",
+    "round7/runs/app_002/measurements/log.jsonl": "fde7944f2ab5627d3ee5626979aa21ba260ecb71ffeb6c04c456c52efe8a7759",
+    "round7/runs/app_003/eval.json": "2265b141fdcd7d1a1e19b4f03fffaf106045970ca149a4071f32dd1403ff2498",
+    "round7/runs/app_003/measurements/diagnostics.json": "4148cf37f20596a9fd3edb91ead85768187daa3649c18e62ae35fcaae92043b2",
+    "round7/runs/app_003/measurements/log.jsonl": "15dcad3d0858cd769db3a32058f000f375a6cae2de03afc4df765252696c22a0",
+    "round7/runs/app_004/eval.json": "58c3e92e57283c56de254fd8db4e92f463557215cb2947e4f27b0e933b115a40",
+    "round7/runs/app_004/measurements/diagnostics.json": "4148cf37f20596a9fd3edb91ead85768187daa3649c18e62ae35fcaae92043b2",
+    "round7/runs/app_004/measurements/log.jsonl": "c21e7cf584eaa041daa8cbfc9133d9135a1bba4e11a8e9330255b9c00440066c",
+    "round7/runs/app_005/eval.json": "027bfb740c85c13d587d7e0d3483aecf8850a1771247ea381cb884ce4106a0fe",
+    "round7/runs/app_005/measurements/diagnostics.json": "4148cf37f20596a9fd3edb91ead85768187daa3649c18e62ae35fcaae92043b2",
+    "round7/runs/app_005/measurements/log.jsonl": "5159f93cbdc3f8508777d4eb4c3d98d600dd5fc5ec2daa3462ddc225398ea3e8",
+    "round5/runs/r7_rep_001/eval.json": "ce75e3774c6be1c826da0fc20003f06bf5188d4debfa87fd0cafd9d350c63a8c",
+    "round5/runs/r7_rep_002/eval.json": "a5660c46ca4dc81ca2bdd714deb75bfdfd5430850bde038b8a1dcd4d68a87814",
+    "round5/runs/r7_rep_003/eval.json": "4047be8dc07e5680281c7cdd06f5d86628afe1521dba1a98dfb9e592762bd91f",
+    "round5/runs/r7_rep_004/eval.json": "3c97de1d9852cb3e6808efc9e3c21ece09aa8ab313715941a048183f10b523c4",
+    "round5/runs/r7_rep_005/eval.json": "ccb46f4bb283904fc5eeb5d8511754260ba62ffc2a994610ec19799e0be44c2e"
+  },
+  "application_raw_rows_checked": 181440,
+  "all_timing_rows": 362880,
+  "seed": 3407,
+  "processes": 5,
+  "hot": [
+    {
+      "domain": "dev",
+      "n": 4096,
+      "value_bytes": 32,
+      "q": 32,
+      "improvement": 0.07478417355608857,
+      "passed": true
+    },
+    {
+      "domain": "dev",
+      "n": 4096,
+      "value_bytes": 32,
+      "q": 128,
+      "improvement": 0.08877503589576252,
+      "passed": true
+    },
+    {
+      "domain": "dev",
+      "n": 4096,
+      "value_bytes": 1000,
+      "q": 32,
+      "improvement": 0.02375812086980955,
+      "passed": false
+    },
+    {
+      "domain": "dev",
+      "n": 4096,
+      "value_bytes": 1000,
+      "q": 128,
+      "improvement": 0.03150063178537088,
+      "passed": false
+    },
+    {
+      "domain": "dev",
+      "n": 16384,
+      "value_bytes": 32,
+      "q": 32,
+      "improvement": 0.038154160043279206,
+      "passed": false
+    },
+    {
+      "domain": "dev",
+      "n": 16384,
+      "value_bytes": 32,
+      "q": 128,
+      "improvement": 0.09999342788630894,
+      "passed": true
+    },
+    {
+      "domain": "dev",
+      "n": 16384,
+      "value_bytes": 1000,
+      "q": 32,
+      "improvement": 0.013519842434214668,
+      "passed": false
+    },
+    {
+      "domain": "dev",
+      "n": 16384,
+      "value_bytes": 1000,
+      "q": 128,
+      "improvement": 0.03585259038245836,
+      "passed": false
+    },
+    {
+      "domain": "confirm",
+      "n": 4096,
+      "value_bytes": 32,
+      "q": 32,
+      "improvement": 0.05439362846069051,
+      "passed": true
+    },
+    {
+      "domain": "confirm",
+      "n": 4096,
+      "value_bytes": 32,
+      "q": 128,
+      "improvement": 0.08016173225444645,
+      "passed": true
+    },
+    {
+      "domain": "confirm",
+      "n": 4096,
+      "value_bytes": 1000,
+      "q": 32,
+      "improvement": 0.017705989084285445,
+      "passed": true
+    },
+    {
+      "domain": "confirm",
+      "n": 4096,
+      "value_bytes": 1000,
+      "q": 128,
+      "improvement": 0.02558134412450408,
+      "passed": true
+    },
+    {
+      "domain": "confirm",
+      "n": 16384,
+      "value_bytes": 32,
+      "q": 32,
+      "improvement": 0.05392452311442941,
+      "passed": true
+    },
+    {
+      "domain": "confirm",
+      "n": 16384,
+      "value_bytes": 32,
+      "q": 128,
+      "improvement": 0.09786025264779141,
+      "passed": true
+    },
+    {
+      "domain": "confirm",
+      "n": 16384,
+      "value_bytes": 1000,
+      "q": 32,
+      "improvement": 0.018010872294846325,
+      "passed": true
+    },
+    {
+      "domain": "confirm",
+      "n": 16384,
+      "value_bytes": 1000,
+      "q": 128,
+      "improvement": 0.03542506030941739,
+      "passed": true
+    }
+  ],
+  "hot_development_passes": 3,
+  "hot_confirmation_passes": 8,
+  "application_gates": [
+    {
+      "hot": false,
+      "service_effective": 0,
+      "codec_effective": 0
+    },
+    {
+      "hot": false,
+      "service_effective": 0,
+      "codec_effective": 0
+    },
+    {
+      "hot": false,
+      "service_effective": 0,
+      "codec_effective": 0
+    },
+    {
+      "hot": false,
+      "service_effective": 0,
+      "codec_effective": 0
+    },
+    {
+      "hot": false,
+      "service_effective": 0,
+      "codec_effective": 0
+    }
+  ],
+  "frozen_gates": [
+    {
+      "locality": true,
+      "lifecycle": true
+    },
+    {
+      "locality": true,
+      "lifecycle": true
+    },
+    {
+      "locality": true,
+      "lifecycle": true
+    },
+    {
+      "locality": true,
+      "lifecycle": true
+    },
+    {
+      "locality": true,
+      "lifecycle": true
+    }
+  ],
+  "prior_conclusion_stability": {
+    "locality": true,
+    "lifecycle": true,
+    "all_alternative_classifications": true
+  },
+  "frozen_classifications": {
+    "count": 256,
+    "all_agree_five": true
+  },
+  "spread": {
+    "application": {
+      "flagged": 192,
+      "total": 576,
+      "maximum": 2.1633330958572294
+    },
+    "frozen": {
+      "flagged": 413,
+      "total": 576,
+      "maximum": 2.6123861441974126
+    }
+  },
+  "q128_structure": {
+    "uniform": {
+      "bundles": 12,
+      "distinct_keys": {
+        "values": [
+          128,
+          125,
+          128,
+          127,
+          127,
+          128,
+          126,
+          127,
+          127,
+          127,
+          125,
+          127
+        ],
+        "min": 125,
+        "max": 128
+      },
+      "occupied_unique_key_prefixes": {
+        "values": [
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ],
+        "min": 16,
+        "max": 16
+      }
+    },
+    "zipf": {
+      "bundles": 12,
+      "distinct_keys": {
+        "values": [
+          89,
+          92,
+          96,
+          90,
+          99,
+          84,
+          95,
+          90,
+          89,
+          92,
+          88,
+          92
+        ],
+        "min": 84,
+        "max": 99
+      },
+      "occupied_unique_key_prefixes": {
+        "values": [
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16,
+          16
+        ],
+        "min": 16,
+        "max": 16
+      }
+    }
+  },
+  "reset_service_ratios": {
+    "1": {
+      "count": 240,
+      "min": 0.09508575490980183,
+      "max": 0.3049159709636848,
+      "at_least_one": 0
+    },
+    "8": {
+      "count": 240,
+      "min": 0.43010620007732614,
+      "max": 0.8467942129337445,
+      "at_least_one": 0
+    },
+    "32": {
+      "count": 240,
+      "min": 0.8070568943502544,
+      "max": 0.9920950757569346,
+      "at_least_one": 0
+    },
+    "128": {
+      "count": 240,
+      "min": 0.9476690215167245,
+      "max": 1.0398786069745265,
+      "at_least_one": 100
+    }
+  },
+  "examples": [
+    {
+      "domain": "confirm",
+      "cell": "n16384_q128_v1000_member_zipf",
+      "n": 16384,
+      "q": 128,
+      "value_bytes": 1000,
+      "distribution": "zipf",
+      "modes": {
+        "ordinary": {
+          "paired_total_ratio": {
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "min": 1.0,
+            "max": 1.0
+          },
+          "paired_codec_ratio": {
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "min": 1.0,
+            "max": 1.0
+          },
+          "median_bytes": {
+            "values": [
+              195398,
+              195398,
+              195398,
+              195398,
+              195398
+            ],
+            "min": 195398,
+            "max": 195398
+          },
+          "median_saved_bytes": {
+            "values": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "min": 0,
+            "max": 0
+          },
+          "median_extra_total_ns": {
+            "values": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "min": 0,
+            "max": 0
+          },
+          "median_proof_ns": {
+            "values": [
+              519525,
+              563239,
+              576541,
+              537686,
+              496699
+            ],
+            "min": 496699,
+            "max": 576541
+          },
+          "median_encode_ns": {
+            "values": [
+              135552,
+              150999,
+              155884,
+              135878,
+              132864
+            ],
+            "min": 132864,
+            "max": 155884
+          },
+          "median_decode_ns": {
+            "values": [
+              49776,
+              56901,
+              53828,
+              51592,
+              50600
+            ],
+            "min": 49776,
+            "max": 56901
+          },
+          "median_verify_ns": {
+            "values": [
+              677027,
+              742602,
+              711385,
+              731391,
+              687633
+            ],
+            "min": 677027,
+            "max": 742602
+          },
+          "median_total_ns": {
+            "values": [
+              1395597,
+              1519172,
+              1515899,
+              1453278,
+              1361220
+            ],
+            "min": 1361220,
+            "max": 1519172
+          },
+          "median_codec_total_ns": {
+            "values": [
+              867971,
+              953371,
+              934746,
+              918972,
+              878115
+            ],
+            "min": 867971,
+            "max": 953371
+          },
+          "worst_byte_ratio": 1.0,
+          "absolute_spread": 1.1160370843801883,
+          "spread_over_120": false,
+          "transfer_boundaries": [
+            {
+              "class": "no_byte_saving",
+              "bits_per_second": null
+            },
+            {
+              "class": "no_byte_saving",
+              "bits_per_second": null
+            },
+            {
+              "class": "no_byte_saving",
+              "bits_per_second": null
+            },
+            {
+              "class": "no_byte_saving",
+              "bits_per_second": null
+            },
+            {
+              "class": "no_byte_saving",
+              "bits_per_second": null
+            }
+          ],
+          "finite_boundary_range": null
+        },
+        "compact": {
+          "paired_total_ratio": {
+            "values": [
+              1.123631389194303,
+              1.121697571687636,
+              1.096427992223841,
+              1.1088265838851943,
+              1.107313386013492
+            ],
+            "min": 1.096427992223841,
+            "max": 1.123631389194303
+          },
+          "paired_codec_ratio": {
+            "values": [
+              1.1623472210298407,
+              1.1741497032283654,
+              1.1506984163561538,
+              1.1695009857586751,
+              1.1745765743454273
+            ],
+            "min": 1.1506984163561538,
+            "max": 1.1745765743454273
+          },
+          "median_bytes": {
+            "values": [
+              192287,
+              192287,
+              192287,
+              192287,
+              192287
+            ],
+            "min": 192287,
+            "max": 192287
+          },
+          "median_saved_bytes": {
+            "values": [
+              3111,
+              3111,
+              3111,
+              3111,
+              3111
+            ],
+            "min": 3111,
+            "max": 3111
+          },
+          "median_extra_total_ns": {
+            "values": [
+              155772,
+              169448,
+              136403,
+              152767,
+              149153
+            ],
+            "min": 136403,
+            "max": 169448
+          },
+          "median_proof_ns": {
+            "values": [
+              509206,
+              559188,
+              576933,
+              518940,
+              507589
+            ],
+            "min": 507589,
+            "max": 576933
+          },
+          "median_encode_ns": {
+            "values": [
+              257037,
+              288089,
+              282934,
+              266656,
+              261118
+            ],
+            "min": 257037,
+            "max": 288089
+          },
+          "median_decode_ns": {
+            "values": [
+              76511,
+              87000,
+              82703,
+              82696,
+              78180
+            ],
+            "min": 76511,
+            "max": 87000
+          },
+          "median_verify_ns": {
+            "values": [
+              685938,
+              744386,
+              704372,
+              707397,
+              713836
+            ],
+            "min": 685938,
+            "max": 744386
+          },
+          "median_total_ns": {
+            "values": [
+              1521871,
+              1697911,
+              1659020,
+              1571081,
+              1550137
+            ],
+            "min": 1521871,
+            "max": 1697911
+          },
+          "median_codec_total_ns": {
+            "values": [
+              1008627,
+              1134531,
+              1087758,
+              1056131,
+              1045253
+            ],
+            "min": 1008627,
+            "max": 1134531
+          },
+          "worst_byte_ratio": 0.9853090536034881,
+          "absolute_spread": 1.1156734046446775,
+          "spread_over_120": false,
+          "transfer_boundaries": [
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 159771974.4241584
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 146876917.99254048
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 182459330.07338548
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 162914765.6234658
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 166862215.30911213
+            }
+          ],
+          "finite_boundary_range": [
+            146876917.99254048,
+            182459330.07338548
+          ]
+        },
+        "dictionary": {
+          "paired_total_ratio": {
+            "values": [
+              1.1177014406656338,
+              1.100972198175959,
+              1.0848530869930841,
+              1.082376324612764,
+              1.1024610503802725
+            ],
+            "min": 1.082376324612764,
+            "max": 1.1177014406656338
+          },
+          "paired_codec_ratio": {
+            "values": [
+              1.1698169406630012,
+              1.164237165460005,
+              1.1443333269144773,
+              1.1581212795465896,
+              1.161831297189795
+            ],
+            "min": 1.1443333269144773,
+            "max": 1.1698169406630012
+          },
+          "median_bytes": {
+            "values": [
+              164486,
+              164486,
+              164486,
+              164486,
+              164486
+            ],
+            "min": 164486,
+            "max": 164486
+          },
+          "median_saved_bytes": {
+            "values": [
+              31360,
+              31360,
+              31360,
+              31360,
+              31360
+            ],
+            "min": 31360,
+            "max": 31360
+          },
+          "median_extra_total_ns": {
+            "values": [
+              157350,
+              148046,
+              121423,
+              119371,
+              130925
+            ],
+            "min": 119371,
+            "max": 157350
+          },
+          "median_proof_ns": {
+            "values": [
+              516510,
+              555780,
+              558836,
+              526856,
+              498227
+            ],
+            "min": 498227,
+            "max": 558836
+          },
+          "median_encode_ns": {
+            "values": [
+              283074,
+              297465,
+              282648,
+              287611,
+              278070
+            ],
+            "min": 278070,
+            "max": 297465
+          },
+          "median_decode_ns": {
+            "values": [
+              56530,
+              58384,
+              54705,
+              55942,
+              53861
+            ],
+            "min": 53861,
+            "max": 58384
+          },
+          "median_verify_ns": {
+            "values": [
+              714819,
+              729963,
+              699147,
+              699284,
+              693911
+            ],
+            "min": 693911,
+            "max": 729963
+          },
+          "median_total_ns": {
+            "values": [
+              1564102,
+              1638556,
+              1610608,
+              1581286,
+              1539838
+            ],
+            "min": 1539838,
+            "max": 1638556
+          },
+          "median_codec_total_ns": {
+            "values": [
+              1046513,
+              1078066,
+              1045140,
+              1040359,
+              1042121
+            ],
+            "min": 1040359,
+            "max": 1078066
+          },
+          "worst_byte_ratio": 0.8455869558542053,
+          "absolute_spread": 1.0641093413722742,
+          "spread_over_120": false,
+          "transfer_boundaries": [
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 1594407372.100413
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 1694608432.5142186
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 2066165388.7648962
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 2101682988.330499
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 1916211571.5104067
+            }
+          ],
+          "finite_boundary_range": [
+            1594407372.100413,
+            2101682988.330499
+          ]
+        },
+        "zlib-ordinary": {
+          "paired_total_ratio": {
+            "values": [
+              2.7432369683481883,
+              2.893385625133375,
+              2.665736129667868,
+              2.8874200482965597,
+              2.91266962205102
+            ],
+            "min": 2.665736129667868,
+            "max": 2.91266962205102
+          },
+          "paired_codec_ratio": {
+            "values": [
+              3.8497485045010396,
+              3.9941836912568776,
+              3.7597860065349664,
+              3.930531071675742,
+              4.024388946218359
+            ],
+            "min": 3.7597860065349664,
+            "max": 4.024388946218359
+          },
+          "median_bytes": {
+            "values": [
+              143346,
+              143346,
+              143346,
+              143346,
+              143346
+            ],
+            "min": 143346,
+            "max": 143346
+          },
+          "median_saved_bytes": {
+            "values": [
+              52500,
+              52500,
+              52500,
+              52500,
+              52500
+            ],
+            "min": 52500,
+            "max": 52500
+          },
+          "median_extra_total_ns": {
+            "values": [
+              2398273,
+              2862366,
+              2443200,
+              2599783,
+              2572941
+            ],
+            "min": 2398273,
+            "max": 2862366
+          },
+          "median_proof_ns": {
+            "values": [
+              514139,
+              564563,
+              575138,
+              523079,
+              507138
+            ],
+            "min": 507138,
+            "max": 575138
+          },
+          "median_encode_ns": {
+            "values": [
+              1722409,
+              1946971,
+              1738418,
+              1795958,
+              1782043
+            ],
+            "min": 1722409,
+            "max": 1946971
+          },
+          "median_decode_ns": {
+            "values": [
+              972690,
+              1084103,
+              1006091,
+              1043470,
+              1027802
+            ],
+            "min": 972690,
+            "max": 1084103
+          },
+          "median_verify_ns": {
+            "values": [
+              672382,
+              766223,
+              713836,
+              707246,
+              704942
+            ],
+            "min": 672382,
+            "max": 766223
+          },
+          "median_total_ns": {
+            "values": [
+              3868119,
+              4447180,
+              4020751,
+              4128037,
+              4006489
+            ],
+            "min": 3868119,
+            "max": 4447180
+          },
+          "median_codec_total_ns": {
+            "values": [
+              3338886,
+              3866677,
+              3420429,
+              3571005,
+              3468874
+            ],
+            "min": 3338886,
+            "max": 3866677
+          },
+          "worst_byte_ratio": 0.7933551008710427,
+          "absolute_spread": 1.149700926988027,
+          "spread_over_120": false,
+          "transfer_boundaries": [
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 175126017.76361573
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 146731759.670147
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 171905697.4459725
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 161551944.91232538
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 163237322.58143502
+            }
+          ],
+          "finite_boundary_range": [
+            146731759.670147,
+            175126017.76361573
+          ]
+        },
+        "zlib-compact": {
+          "paired_total_ratio": {
+            "values": [
+              2.8423884542122777,
+              2.762991219338256,
+              2.6870201334982986,
+              2.843145405383591,
+              2.8346680981050176
+            ],
+            "min": 2.6870201334982986,
+            "max": 2.843145405383591
+          },
+          "paired_codec_ratio": {
+            "values": [
+              3.900832303489834,
+              3.8812897493453047,
+              3.791468277125873,
+              3.91203289361401,
+              3.905169238023665
+            ],
+            "min": 3.791468277125873,
+            "max": 3.91203289361401
+          },
+          "median_bytes": {
+            "values": [
+              145486,
+              145486,
+              145486,
+              145486,
+              145486
+            ],
+            "min": 145486,
+            "max": 145486
+          },
+          "median_saved_bytes": {
+            "values": [
+              50360,
+              50360,
+              50360,
+              50360,
+              50360
+            ],
+            "min": 50360,
+            "max": 50360
+          },
+          "median_extra_total_ns": {
+            "values": [
+              2528817,
+              2632642,
+              2512997,
+              2588665,
+              2533238
+            ],
+            "min": 2512997,
+            "max": 2632642
+          },
+          "median_proof_ns": {
+            "values": [
+              513812,
+              558671,
+              569453,
+              532982,
+              499657
+            ],
+            "min": 499657,
+            "max": 569453
+          },
+          "median_encode_ns": {
+            "values": [
+              1665708,
+              1782576,
+              1717502,
+              1771807,
+              1700921
+            ],
+            "min": 1665708,
+            "max": 1782576
+          },
+          "median_decode_ns": {
+            "values": [
+              1053774,
+              1132940,
+              1046310,
+              1087225,
+              1038992
+            ],
+            "min": 1038992,
+            "max": 1132940
+          },
+          "median_verify_ns": {
+            "values": [
+              695449,
+              738743,
+              728069,
+              719855,
+              686998
+            ],
+            "min": 686998,
+            "max": 738743
+          },
+          "median_total_ns": {
+            "values": [
+              3934470,
+              4371582,
+              4055797,
+              4158790,
+              3977468
+            ],
+            "min": 3934470,
+            "max": 4371582
+          },
+          "median_codec_total_ns": {
+            "values": [
+              3380751,
+              3804253,
+              3505416,
+              3625438,
+              3446225
+            ],
+            "min": 3380751,
+            "max": 3804253
+          },
+          "worst_byte_ratio": 0.7965844072098998,
+          "absolute_spread": 1.1110980640340375,
+          "spread_over_120": false,
+          "transfer_boundaries": [
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 159315600.9311864
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 153032580.95859596
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 160318535.99506885
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 155632343.3120933
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 159037563.7820055
+            }
+          ],
+          "finite_boundary_range": [
+            153032580.95859596,
+            160318535.99506885
+          ]
+        },
+        "zlib-dictionary": {
+          "paired_total_ratio": {
+            "values": [
+              2.2055264855516876,
+              2.094824436102714,
+              2.083990496505299,
+              2.1764601133208346,
+              2.1861928068888834
+            ],
+            "min": 2.083990496505299,
+            "max": 2.2055264855516876
+          },
+          "paired_codec_ratio": {
+            "values": [
+              2.868373460211491,
+              2.7434169247066493,
+              2.7671941342747894,
+              2.938561536979036,
+              2.929421229496325
+            ],
+            "min": 2.7434169247066493,
+            "max": 2.938561536979036
+          },
+          "median_bytes": {
+            "values": [
+              140839,
+              140839,
+              140839,
+              140839,
+              140839
+            ],
+            "min": 140839,
+            "max": 140839
+          },
+          "median_saved_bytes": {
+            "values": [
+              55007,
+              55007,
+              55007,
+              55007,
+              55007
+            ],
+            "min": 55007,
+            "max": 55007
+          },
+          "median_extra_total_ns": {
+            "values": [
+              1606800,
+              1552568,
+              1566570,
+              1655704,
+              1622824
+            ],
+            "min": 1552568,
+            "max": 1655704
+          },
+          "median_proof_ns": {
+            "values": [
+              511942,
+              567438,
+              566067,
+              516465,
+              498771
+            ],
+            "min": 498771,
+            "max": 567438
+          },
+          "median_encode_ns": {
+            "values": [
+              1307613,
+              1338884,
+              1301354,
+              1343744,
+              1312627
+            ],
+            "min": 1301354,
+            "max": 1343744
+          },
+          "median_decode_ns": {
+            "values": [
+              550618,
+              569558,
+              538801,
+              580615,
+              568024
+            ],
+            "min": 538801,
+            "max": 580615
+          },
+          "median_verify_ns": {
+            "values": [
+              703929,
+              740437,
+              734272,
+              728110,
+              693978
+            ],
+            "min": 693978,
+            "max": 740437
+          },
+          "median_total_ns": {
+            "values": [
+              3059107,
+              3145020,
+              3117485,
+              3137490,
+              3013448
+            ],
+            "min": 3013448,
+            "max": 3145020
+          },
+          "median_codec_total_ns": {
+            "values": [
+              2531501,
+              2558946,
+              2550160,
+              2610659,
+              2515217
+            ],
+            "min": 2515217,
+            "max": 2610659
+          },
+          "worst_byte_ratio": 0.8182837081239317,
+          "absolute_spread": 1.0436616128766782,
+          "spread_over_120": false,
+          "transfer_boundaries": [
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 273871048.04580534
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 283437504.8307063
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 280904140.89379984
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 265781806.40984136
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 271166805.5192676
+            }
+          ],
+          "finite_boundary_range": [
+            265781806.40984136,
+            283437504.8307063
+          ]
+        },
+        "reset-zlib-ordinary": {
+          "paired_total_ratio": {
+            "values": [
+              2.7652405980686257,
+              2.8325542388387976,
+              2.7049336984694494,
+              2.8813740113981128,
+              2.920873392358673
+            ],
+            "min": 2.7049336984694494,
+            "max": 2.920873392358673
+          },
+          "paired_codec_ratio": {
+            "values": [
+              3.8292551333828837,
+              3.8756810040682246,
+              3.802700609634602,
+              3.999589199112424,
+              4.03595206834084
+            ],
+            "min": 3.802700609634602,
+            "max": 4.03595206834084
+          },
+          "median_bytes": {
+            "values": [
+              143346,
+              143346,
+              143346,
+              143346,
+              143346
+            ],
+            "min": 143346,
+            "max": 143346
+          },
+          "median_saved_bytes": {
+            "values": [
+              52500,
+              52500,
+              52500,
+              52500,
+              52500
+            ],
+            "min": 52500,
+            "max": 52500
+          },
+          "median_extra_total_ns": {
+            "values": [
+              2434595,
+              2706338,
+              2555837,
+              2632821,
+              2501009
+            ],
+            "min": 2434595,
+            "max": 2706338
+          },
+          "median_proof_ns": {
+            "values": [
+              510405,
+              565005,
+              564894,
+              513604,
+              495343
+            ],
+            "min": 495343,
+            "max": 565005
+          },
+          "median_encode_ns": {
+            "values": [
+              1705767,
+              1870509,
+              1823344,
+              1822149,
+              1737259
+            ],
+            "min": 1705767,
+            "max": 1870509
+          },
+          "median_decode_ns": {
+            "values": [
+              982203,
+              1074979,
+              1044971,
+              1036860,
+              1004739
+            ],
+            "min": 982203,
+            "max": 1074979
+          },
+          "median_verify_ns": {
+            "values": [
+              677887,
+              750517,
+              715380,
+              707177,
+              683900
+            ],
+            "min": 677887,
+            "max": 750517
+          },
+          "median_total_ns": {
+            "values": [
+              3886765,
+              4255172,
+              4112855,
+              4084227,
+              3931636
+            ],
+            "min": 3886765,
+            "max": 4255172
+          },
+          "median_codec_total_ns": {
+            "values": [
+              3390996,
+              3706554,
+              3582207,
+              3578874,
+              3417333
+            ],
+            "min": 3390996,
+            "max": 3706554
+          },
+          "reset_fresh_total_ratio": {
+            "values": [
+              0.9969866938197884,
+              0.9798646387703238,
+              1.0231663979891596,
+              0.9958769565586583,
+              0.9844705036532688
+            ],
+            "min": 0.9798646387703238,
+            "max": 1.0231663979891596
+          },
+          "reset_fresh_codec_ratio": {
+            "values": [
+              0.9952837342679624,
+              0.9736475213313684,
+              1.0307803607231694,
+              0.9973455300306581,
+              0.9867535171762134
+            ],
+            "min": 0.9736475213313684,
+            "max": 1.0307803607231694
+          },
+          "worst_byte_ratio": 0.7933551008710427,
+          "absolute_spread": 1.0947849947192587,
+          "spread_over_120": false,
+          "transfer_boundaries": [
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 172513292.76532647
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 155191258.44591475
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 164329728.38252205
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 159524707.52854067
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 167932222.55497682
+            }
+          ],
+          "finite_boundary_range": [
+            155191258.44591475,
+            172513292.76532647
+          ]
+        },
+        "reset-zlib-compact": {
+          "paired_total_ratio": {
+            "values": [
+              2.852217521509721,
+              2.792734365932918,
+              2.6859834329309247,
+              2.8178715252604896,
+              2.8525555404116125
+            ],
+            "min": 2.6859834329309247,
+            "max": 2.8525555404116125
+          },
+          "paired_codec_ratio": {
+            "values": [
+              3.9344819124455697,
+              3.88926616657415,
+              3.78052210575759,
+              3.941835270348096,
+              3.945139288440276
+            ],
+            "min": 3.78052210575759,
+            "max": 3.945139288440276
+          },
+          "median_bytes": {
+            "values": [
+              145486,
+              145486,
+              145486,
+              145486,
+              145486
+            ],
+            "min": 145486,
+            "max": 145486
+          },
+          "median_saved_bytes": {
+            "values": [
+              50360,
+              50360,
+              50360,
+              50360,
+              50360
+            ],
+            "min": 50360,
+            "max": 50360
+          },
+          "median_extra_total_ns": {
+            "values": [
+              2516673,
+              2611056,
+              2529722,
+              2552710,
+              2479231
+            ],
+            "min": 2479231,
+            "max": 2611056
+          },
+          "median_proof_ns": {
+            "values": [
+              518994,
+              557834,
+              577267,
+              523971,
+              502015
+            ],
+            "min": 502015,
+            "max": 577267
+          },
+          "median_encode_ns": {
+            "values": [
+              1679295,
+              1796218,
+              1742910,
+              1767480,
+              1687262
+            ],
+            "min": 1679295,
+            "max": 1796218
+          },
+          "median_decode_ns": {
+            "values": [
+              1023365,
+              1112729,
+              1017969,
+              1087263,
+              1040569
+            ],
+            "min": 1017969,
+            "max": 1112729
+          },
+          "median_verify_ns": {
+            "values": [
+              686924,
+              718555,
+              710349,
+              705419,
+              710856
+            ],
+            "min": 686924,
+            "max": 718555
+          },
+          "median_total_ns": {
+            "values": [
+              3960037,
+              4218191,
+              4071527,
+              4062317,
+              3947097
+            ],
+            "min": 3947097,
+            "max": 4218191
+          },
+          "median_codec_total_ns": {
+            "values": [
+              3422489,
+              3660357,
+              3496867,
+              3532316,
+              3435867
+            ],
+            "min": 3422489,
+            "max": 3660357
+          },
+          "reset_fresh_total_ratio": {
+            "values": [
+              0.9933483325957493,
+              1.0013657993181329,
+              0.9952545467402973,
+              1.0013677253329711,
+              0.99786510668444
+            ],
+            "min": 0.9933483325957493,
+            "max": 1.0013677253329711
+          },
+          "reset_fresh_codec_ratio": {
+            "values": [
+              0.9911306274277398,
+              0.9954239359509354,
+              0.9891159573184328,
+              1.0015032022826673,
+              0.9987275616428254
+            ],
+            "min": 0.9891159573184328,
+            "max": 1.0015032022826673
+          },
+          "worst_byte_ratio": 0.7965844072098998,
+          "absolute_spread": 1.068681869231995,
+          "spread_over_120": false,
+          "transfer_boundaries": [
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 160084365.35060376
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 154297724.75197774
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 159258606.28163886
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 157824429.72370538
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 162502001.62873083
+            }
+          ],
+          "finite_boundary_range": [
+            154297724.75197774,
+            162502001.62873083
+          ]
+        },
+        "reset-zlib-dictionary": {
+          "paired_total_ratio": {
+            "values": [
+              2.124471109275524,
+              2.158267144685119,
+              2.1032323056466,
+              2.1575922158883247,
+              2.1887469901506544
+            ],
+            "min": 2.1032323056466,
+            "max": 2.1887469901506544
+          },
+          "paired_codec_ratio": {
+            "values": [
+              2.768410318967996,
+              2.872078912451187,
+              2.800948560832497,
+              2.914538154476361,
+              2.8551401806127887
+            ],
+            "min": 2.768410318967996,
+            "max": 2.914538154476361
+          },
+          "median_bytes": {
+            "values": [
+              140839,
+              140839,
+              140839,
+              140839,
+              140839
+            ],
+            "min": 140839,
+            "max": 140839
+          },
+          "median_saved_bytes": {
+            "values": [
+              55007,
+              55007,
+              55007,
+              55007,
+              55007
+            ],
+            "min": 55007,
+            "max": 55007
+          },
+          "median_extra_total_ns": {
+            "values": [
+              1639412,
+              1769862,
+              1662984,
+              1678783,
+              1601718
+            ],
+            "min": 1601718,
+            "max": 1769862
+          },
+          "median_proof_ns": {
+            "values": [
+              513505,
+              583361,
+              566438,
+              518449,
+              498086
+            ],
+            "min": 498086,
+            "max": 583361
+          },
+          "median_encode_ns": {
+            "values": [
+              1299471,
+              1382000,
+              1357575,
+              1352457,
+              1272322
+            ],
+            "min": 1272322,
+            "max": 1382000
+          },
+          "median_decode_ns": {
+            "values": [
+              567431,
+              620071,
+              547093,
+              578310,
+              549729
+            ],
+            "min": 547093,
+            "max": 620071
+          },
+          "median_verify_ns": {
+            "values": [
+              675857,
+              749310,
+              723949,
+              698694,
+              671290
+            ],
+            "min": 671290,
+            "max": 749310
+          },
+          "median_total_ns": {
+            "values": [
+              3050225,
+              3303568,
+              3173193,
+              3130519,
+              2998669
+            ],
+            "min": 2998669,
+            "max": 3303568
+          },
+          "median_codec_total_ns": {
+            "values": [
+              2538857,
+              2704299,
+              2601248,
+              2610661,
+              2483733
+            ],
+            "min": 2483733,
+            "max": 2704299
+          },
+          "reset_fresh_total_ratio": {
+            "values": [
+              1.007526845996818,
+              0.9929499138473271,
+              1.0211569605176147,
+              1.0041729340644432,
+              0.9916931382688234
+            ],
+            "min": 0.9916931382688234,
+            "max": 1.0211569605176147
+          },
+          "reset_fresh_codec_ratio": {
+            "values": [
+              1.0025019485095652,
+              0.9916583590711057,
+              1.0263167764880485,
+              1.0054104211866104,
+              0.9874056337524135
+            ],
+            "min": 0.9874056337524135,
+            "max": 1.0263167764880485
+          },
+          "worst_byte_ratio": 0.8182837081239317,
+          "absolute_spread": 1.101678111188664,
+          "spread_over_120": false,
+          "transfer_boundaries": [
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 268423068.7587989
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 248638594.42148596
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 264618300.59699914
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 262127981.99648198
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 274739997.92722565
+            }
+          ],
+          "finite_boundary_range": [
+            248638594.42148596,
+            274739997.92722565
+          ]
+        }
+      }
+    },
+    {
+      "domain": "confirm",
+      "cell": "n16384_q128_v32_member_zipf",
+      "n": 16384,
+      "q": 128,
+      "value_bytes": 32,
+      "distribution": "zipf",
+      "modes": {
+        "ordinary": {
+          "paired_total_ratio": {
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "min": 1.0,
+            "max": 1.0
+          },
+          "paired_codec_ratio": {
+            "values": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "min": 1.0,
+            "max": 1.0
+          },
+          "median_bytes": {
+            "values": [
+              71494,
+              71494,
+              71494,
+              71494,
+              71494
+            ],
+            "min": 71494,
+            "max": 71494
+          },
+          "median_saved_bytes": {
+            "values": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "min": 0,
+            "max": 0
+          },
+          "median_extra_total_ns": {
+            "values": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "min": 0,
+            "max": 0
+          },
+          "median_proof_ns": {
+            "values": [
+              500019,
+              530155,
+              519515,
+              594399,
+              464489
+            ],
+            "min": 464489,
+            "max": 594399
+          },
+          "median_encode_ns": {
+            "values": [
+              75048,
+              84560,
+              81537,
+              90646,
+              71616
+            ],
+            "min": 71616,
+            "max": 90646
+          },
+          "median_decode_ns": {
+            "values": [
+              51249,
+              54951,
+              53513,
+              60711,
+              47961
+            ],
+            "min": 47961,
+            "max": 60711
+          },
+          "median_verify_ns": {
+            "values": [
+              619173,
+              646181,
+              654539,
+              751804,
+              598425
+            ],
+            "min": 598425,
+            "max": 751804
+          },
+          "median_total_ns": {
+            "values": [
+              1275256,
+              1326550,
+              1306747,
+              1509453,
+              1184578
+            ],
+            "min": 1184578,
+            "max": 1509453
+          },
+          "median_codec_total_ns": {
+            "values": [
+              771631,
+              795472,
+              786117,
+              918822,
+              722724
+            ],
+            "min": 722724,
+            "max": 918822
+          },
+          "worst_byte_ratio": 1.0,
+          "absolute_spread": 1.2742537848921727,
+          "spread_over_120": true,
+          "transfer_boundaries": [
+            {
+              "class": "no_byte_saving",
+              "bits_per_second": null
+            },
+            {
+              "class": "no_byte_saving",
+              "bits_per_second": null
+            },
+            {
+              "class": "no_byte_saving",
+              "bits_per_second": null
+            },
+            {
+              "class": "no_byte_saving",
+              "bits_per_second": null
+            },
+            {
+              "class": "no_byte_saving",
+              "bits_per_second": null
+            }
+          ],
+          "finite_boundary_range": null
+        },
+        "compact": {
+          "paired_total_ratio": {
+            "values": [
+              1.1128799777652816,
+              1.15515025124273,
+              1.1112834301372387,
+              1.1321510259110452,
+              1.124789329492386
+            ],
+            "min": 1.1112834301372387,
+            "max": 1.15515025124273
+          },
+          "paired_codec_ratio": {
+            "values": [
+              1.1937519236688212,
+              1.226441483009073,
+              1.1970981647797811,
+              1.2237482662776498,
+              1.190000709147697
+            ],
+            "min": 1.190000709147697,
+            "max": 1.226441483009073
+          },
+          "median_bytes": {
+            "values": [
+              68383,
+              68383,
+              68383,
+              68383,
+              68383
+            ],
+            "min": 68383,
+            "max": 68383
+          },
+          "median_saved_bytes": {
+            "values": [
+              3111,
+              3111,
+              3111,
+              3111,
+              3111
+            ],
+            "min": 3111,
+            "max": 3111
+          },
+          "median_extra_total_ns": {
+            "values": [
+              145225,
+              208733,
+              148686,
+              217900,
+              139041
+            ],
+            "min": 139041,
+            "max": 217900
+          },
+          "median_proof_ns": {
+            "values": [
+              503273,
+              543807,
+              518513,
+              599203,
+              459033
+            ],
+            "min": 459033,
+            "max": 599203
+          },
+          "median_encode_ns": {
+            "values": [
+              207584,
+              225859,
+              211203,
+              244767,
+              182426
+            ],
+            "min": 182426,
+            "max": 244767
+          },
+          "median_decode_ns": {
+            "values": [
+              80643,
+              84603,
+              84871,
+              94400,
+              72712
+            ],
+            "min": 72712,
+            "max": 94400
+          },
+          "median_verify_ns": {
+            "values": [
+              618512,
+              658816,
+              651391,
+              710245,
+              588566
+            ],
+            "min": 588566,
+            "max": 710245
+          },
+          "median_total_ns": {
+            "values": [
+              1443079,
+              1545923,
+              1462004,
+              1685076,
+              1306468
+            ],
+            "min": 1306468,
+            "max": 1685076
+          },
+          "median_codec_total_ns": {
+            "values": [
+              916358,
+              967268,
+              955650,
+              1056810,
+              849805
+            ],
+            "min": 849805,
+            "max": 1056810
+          },
+          "worst_byte_ratio": 0.9596880894068631,
+          "absolute_spread": 1.2897950810888594,
+          "spread_over_120": true,
+          "transfer_boundaries": [
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 171375451.885006
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 119233662.14254574
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 167386304.0232436
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 114217530.97751263
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 178997561.8702397
+            }
+          ],
+          "finite_boundary_range": [
+            114217530.97751263,
+            178997561.8702397
+          ]
+        },
+        "dictionary": {
+          "paired_total_ratio": {
+            "values": [
+              1.1084036457703745,
+              1.1278784386732332,
+              1.1314889601117777,
+              1.1326716842715776,
+              1.1302031448035084
+            ],
+            "min": 1.1084036457703745,
+            "max": 1.1326716842715776
+          },
+          "paired_codec_ratio": {
+            "values": [
+              1.19052456543165,
+              1.2170927345568885,
+              1.2016672440494203,
+              1.218591995937851,
+              1.2172465687454852
+            ],
+            "min": 1.19052456543165,
+            "max": 1.218591995937851
+          },
+          "median_bytes": {
+            "values": [
+              40582,
+              40582,
+              40582,
+              40582,
+              40582
+            ],
+            "min": 40582,
+            "max": 40582
+          },
+          "median_saved_bytes": {
+            "values": [
+              31360,
+              31360,
+              31360,
+              31360,
+              31360
+            ],
+            "min": 31360,
+            "max": 31360
+          },
+          "median_extra_total_ns": {
+            "values": [
+              139157,
+              175132,
+              171391,
+              182345,
+              156433
+            ],
+            "min": 139157,
+            "max": 182345
+          },
+          "median_proof_ns": {
+            "values": [
+              489667,
+              533543,
+              525999,
+              540307,
+              465639
+            ],
+            "min": 465639,
+            "max": 540307
+          },
+          "median_encode_ns": {
+            "values": [
+              227103,
+              231247,
+              234063,
+              258582,
+              216485
+            ],
+            "min": 216485,
+            "max": 258582
+          },
+          "median_decode_ns": {
+            "values": [
+              54624,
+              57736,
+              59524,
+              64398,
+              51182
+            ],
+            "min": 51182,
+            "max": 64398
+          },
+          "median_verify_ns": {
+            "values": [
+              620035,
+              664447,
+              646743,
+              702493,
+              594270
+            ],
+            "min": 594270,
+            "max": 702493
+          },
+          "median_total_ns": {
+            "values": [
+              1393658,
+              1490101,
+              1461147,
+              1557614,
+              1330654
+            ],
+            "min": 1330654,
+            "max": 1557614
+          },
+          "median_codec_total_ns": {
+            "values": [
+              913747,
+              944420,
+              941930,
+              1017556,
+              869204
+            ],
+            "min": 869204,
+            "max": 1017556
+          },
+          "worst_byte_ratio": 0.5779785716283884,
+          "absolute_spread": 1.170562745837761,
+          "spread_over_120": false,
+          "transfer_boundaries": [
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 1802855767.2269452
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 1432519471.0275679
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 1463787480.0893862
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 1375853464.586361
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 1603753683.6856673
+            }
+          ],
+          "finite_boundary_range": [
+            1375853464.586361,
+            1802855767.2269452
+          ]
+        },
+        "zlib-ordinary": {
+          "paired_total_ratio": {
+            "values": [
+              1.8361514098308847,
+              1.848769613404497,
+              1.8150792545892087,
+              1.874446390633429,
+              1.9211340965627424
+            ],
+            "min": 1.8150792545892087,
+            "max": 1.9211340965627424
+          },
+          "paired_codec_ratio": {
+            "values": [
+              2.439994463521859,
+              2.439946596170069,
+              2.370458243950474,
+              2.438081680995027,
+              2.5279966392413264
+            ],
+            "min": 2.370458243950474,
+            "max": 2.5279966392413264
+          },
+          "median_bytes": {
+            "values": [
+              36412,
+              36412,
+              36412,
+              36412,
+              36412
+            ],
+            "min": 36412,
+            "max": 36412
+          },
+          "median_saved_bytes": {
+            "values": [
+              35530,
+              35530,
+              35530,
+              35530,
+              35530
+            ],
+            "min": 35530,
+            "max": 35530
+          },
+          "median_extra_total_ns": {
+            "values": [
+              1077829,
+              1139315,
+              1065802,
+              1216783,
+              1044694
+            ],
+            "min": 1044694,
+            "max": 1216783
+          },
+          "median_proof_ns": {
+            "values": [
+              498355,
+              552665,
+              515811,
+              557589,
+              464023
+            ],
+            "min": 464023,
+            "max": 557589
+          },
+          "median_encode_ns": {
+            "values": [
+              900958,
+              922473,
+              864851,
+              967308,
+              836883
+            ],
+            "min": 836883,
+            "max": 967308
+          },
+          "median_decode_ns": {
+            "values": [
+              362098,
+              357264,
+              352733,
+              388258,
+              333431
+            ],
+            "min": 333431,
+            "max": 388258
+          },
+          "median_verify_ns": {
+            "values": [
+              635037,
+              665736,
+              654328,
+              746715,
+              600142
+            ],
+            "min": 600142,
+            "max": 746715
+          },
+          "median_total_ns": {
+            "values": [
+              2403476,
+              2485670,
+              2418782,
+              2642403,
+              2226528
+            ],
+            "min": 2226528,
+            "max": 2642403
+          },
+          "median_codec_total_ns": {
+            "values": [
+              1900935,
+              1936462,
+              1899301,
+              2097191,
+              1755695
+            ],
+            "min": 1755695,
+            "max": 2097191
+          },
+          "worst_byte_ratio": 0.5224214619408621,
+          "absolute_spread": 1.186781841503902,
+          "spread_over_120": false,
+          "transfer_boundaries": [
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 263715301.77792582
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 249483242.1235567
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 266691186.5430915
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 233599581.84820136
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 272079671.1764402
+            }
+          ],
+          "finite_boundary_range": [
+            233599581.84820136,
+            272079671.1764402
+          ]
+        },
+        "zlib-compact": {
+          "paired_total_ratio": {
+            "values": [
+              1.9964436815511448,
+              1.979093720747151,
+              1.9449896986839927,
+              2.0181781324913577,
+              2.0157255356527783
+            ],
+            "min": 1.9449896986839927,
+            "max": 2.0181781324913577
+          },
+          "paired_codec_ratio": {
+            "values": [
+              2.652465237022626,
+              2.6266949081472997,
+              2.586043502754729,
+              2.679152405259852,
+              2.6805864047181713
+            ],
+            "min": 2.586043502754729,
+            "max": 2.6805864047181713
+          },
+          "median_bytes": {
+            "values": [
+              36362,
+              36362,
+              36362,
+              36362,
+              36362
+            ],
+            "min": 36362,
+            "max": 36362
+          },
+          "median_saved_bytes": {
+            "values": [
+              35580,
+              35580,
+              35580,
+              35580,
+              35580
+            ],
+            "min": 35580,
+            "max": 35580
+          },
+          "median_extra_total_ns": {
+            "values": [
+              1216721,
+              1297187,
+              1273557,
+              1358666,
+              1184387
+            ],
+            "min": 1184387,
+            "max": 1358666
+          },
+          "median_proof_ns": {
+            "values": [
+              491509,
+              534291,
+              506137,
+              577756,
+              462575
+            ],
+            "min": 462575,
+            "max": 577756
+          },
+          "median_encode_ns": {
+            "values": [
+              1000141,
+              1036901,
+              1044273,
+              1129294,
+              953543
+            ],
+            "min": 953543,
+            "max": 1129294
+          },
+          "median_decode_ns": {
+            "values": [
+              383812,
+              388245,
+              388471,
+              422697,
+              361057
+            ],
+            "min": 361057,
+            "max": 422697
+          },
+          "median_verify_ns": {
+            "values": [
+              630863,
+              651548,
+              661576,
+              737378,
+              582375
+            ],
+            "min": 582375,
+            "max": 737378
+          },
+          "median_total_ns": {
+            "values": [
+              2477367,
+              2633612,
+              2630623,
+              2827517,
+              2373338
+            ],
+            "min": 2373338,
+            "max": 2827517
+          },
+          "median_codec_total_ns": {
+            "values": [
+              2009236,
+              2114236,
+              2122450,
+              2278647,
+              1907445
+            ],
+            "min": 1907445,
+            "max": 2278647
+          },
+          "worst_byte_ratio": 0.520309396592721,
+          "absolute_spread": 1.1913671798959946,
+          "spread_over_120": false,
+          "transfer_boundaries": [
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 233940237.73732844
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 219428656.00719094
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 223500008.2446251
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 209499612.1195349
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 240326852.62502882
+            }
+          ],
+          "finite_boundary_range": [
+            209499612.1195349,
+            240326852.62502882
+          ]
+        },
+        "zlib-dictionary": {
+          "paired_total_ratio": {
+            "values": [
+              1.6483934917680052,
+              1.63245992184007,
+              1.600336543408652,
+              1.6300408380191433,
+              1.6816012474867927
+            ],
+            "min": 1.600336543408652,
+            "max": 1.6816012474867927
+          },
+          "paired_codec_ratio": {
+            "values": [
+              2.108282326656135,
+              2.0257187100249108,
+              2.0117698969203697,
+              2.0799812495460936,
+              2.0947157627774096
+            ],
+            "min": 2.0117698969203697,
+            "max": 2.108282326656135
+          },
+          "median_bytes": {
+            "values": [
+              39885,
+              39885,
+              39885,
+              39885,
+              39885
+            ],
+            "min": 39885,
+            "max": 39885
+          },
+          "median_saved_bytes": {
+            "values": [
+              32057,
+              32057,
+              32057,
+              32057,
+              32057
+            ],
+            "min": 32057,
+            "max": 32057
+          },
+          "median_extra_total_ns": {
+            "values": [
+              801421,
+              809798,
+              768342,
+              902440,
+              763804
+            ],
+            "min": 763804,
+            "max": 902440
+          },
+          "median_proof_ns": {
+            "values": [
+              494954,
+              541528,
+              521423,
+              542821,
+              462522
+            ],
+            "min": 462522,
+            "max": 542821
+          },
+          "median_encode_ns": {
+            "values": [
+              577248,
+              612245,
+              587774,
+              656898,
+              552738
+            ],
+            "min": 552738,
+            "max": 656898
+          },
+          "median_decode_ns": {
+            "values": [
+              370697,
+              354067,
+              357343,
+              396174,
+              341869
+            ],
+            "min": 341869,
+            "max": 396174
+          },
+          "median_verify_ns": {
+            "values": [
+              634874,
+              654230,
+              639978,
+              703820,
+              595560
+            ],
+            "min": 595560,
+            "max": 703820
+          },
+          "median_total_ns": {
+            "values": [
+              2077421,
+              2149841,
+              2139846,
+              2339339,
+              1947029
+            ],
+            "min": 1947029,
+            "max": 2339339
+          },
+          "median_codec_total_ns": {
+            "values": [
+              1571779,
+              1612150,
+              1633409,
+              1767406,
+              1478712
+            ],
+            "min": 1478712,
+            "max": 1767406
+          },
+          "worst_byte_ratio": 0.5684952583433575,
+          "absolute_spread": 1.2014916059288279,
+          "spread_over_120": true,
+          "transfer_boundaries": [
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 320001597.16303915
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 316691323.0212967
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 333778447.6183783
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 284180665.75063163
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 335761530.44498324
+            }
+          ],
+          "finite_boundary_range": [
+            284180665.75063163,
+            335761530.44498324
+          ]
+        },
+        "reset-zlib-ordinary": {
+          "paired_total_ratio": {
+            "values": [
+              1.803784797824411,
+              1.8351335730912026,
+              1.8242290525642573,
+              1.8753867796173493,
+              1.8542310178407642
+            ],
+            "min": 1.803784797824411,
+            "max": 1.8753867796173493
+          },
+          "paired_codec_ratio": {
+            "values": [
+              2.3446877711583594,
+              2.413071189137253,
+              2.3918765498671846,
+              2.4229175479799085,
+              2.4106945709141607
+            ],
+            "min": 2.3446877711583594,
+            "max": 2.4229175479799085
+          },
+          "median_bytes": {
+            "values": [
+              36412,
+              36412,
+              36412,
+              36412,
+              36412
+            ],
+            "min": 36412,
+            "max": 36412
+          },
+          "median_saved_bytes": {
+            "values": [
+              35530,
+              35530,
+              35530,
+              35530,
+              35530
+            ],
+            "min": 35530,
+            "max": 35530
+          },
+          "median_extra_total_ns": {
+            "values": [
+              1008172,
+              1094021,
+              1089321,
+              1224152,
+              975645
+            ],
+            "min": 975645,
+            "max": 1224152
+          },
+          "median_proof_ns": {
+            "values": [
+              489775,
+              538978,
+              515463,
+              575685,
+              465874
+            ],
+            "min": 465874,
+            "max": 575685
+          },
+          "median_encode_ns": {
+            "values": [
+              801722,
+              918954,
+              876079,
+              994878,
+              784239
+            ],
+            "min": 784239,
+            "max": 994878
+          },
+          "median_decode_ns": {
+            "values": [
+              349068,
+              362202,
+              357106,
+              396936,
+              340691
+            ],
+            "min": 340691,
+            "max": 396936
+          },
+          "median_verify_ns": {
+            "values": [
+              630862,
+              658622,
+              667390,
+              702157,
+              603130
+            ],
+            "min": 603130,
+            "max": 702157
+          },
+          "median_total_ns": {
+            "values": [
+              2266999,
+              2472571,
+              2477436,
+              2769300,
+              2205714
+            ],
+            "min": 2205714,
+            "max": 2769300
+          },
+          "median_codec_total_ns": {
+            "values": [
+              1781787,
+              1925529,
+              1919234,
+              2153610,
+              1744651
+            ],
+            "min": 1744651,
+            "max": 2153610
+          },
+          "reset_fresh_total_ratio": {
+            "values": [
+              0.979128188100525,
+              0.9921674516279414,
+              1.0163972527811018,
+              1.017917951524761,
+              0.9677653099513889
+            ],
+            "min": 0.9677653099513889,
+            "max": 1.017917951524761
+          },
+          "reset_fresh_codec_ratio": {
+            "values": [
+              0.9737978835716168,
+              0.9922214740282495,
+              1.0147535395626492,
+              1.0107031975194538,
+              0.9620722222386703
+            ],
+            "min": 0.9620722222386703,
+            "max": 1.0147535395626492
+          },
+          "worst_byte_ratio": 0.5224214619408621,
+          "absolute_spread": 1.255511820662153,
+          "spread_over_120": true,
+          "transfer_boundaries": [
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 281936018.8539257
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 259812197.38926402
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 260933186.8200466
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 232193387.74923375
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 291335475.50594735
+            }
+          ],
+          "finite_boundary_range": [
+            232193387.74923375,
+            291335475.50594735
+          ]
+        },
+        "reset-zlib-compact": {
+          "paired_total_ratio": {
+            "values": [
+              1.9961840731181828,
+              2.0002949576627844,
+              1.9593943841731452,
+              2.0384509006660005,
+              1.970704445366661
+            ],
+            "min": 1.9593943841731452,
+            "max": 2.0384509006660005
+          },
+          "paired_codec_ratio": {
+            "values": [
+              2.6270232176123245,
+              2.6978976799524093,
+              2.6201898871776095,
+              2.7326929205204697,
+              2.5797463452415528
+            ],
+            "min": 2.5797463452415528,
+            "max": 2.7326929205204697
+          },
+          "median_bytes": {
+            "values": [
+              36362,
+              36362,
+              36362,
+              36362,
+              36362
+            ],
+            "min": 36362,
+            "max": 36362
+          },
+          "median_saved_bytes": {
+            "values": [
+              35580,
+              35580,
+              35580,
+              35580,
+              35580
+            ],
+            "min": 35580,
+            "max": 35580
+          },
+          "median_extra_total_ns": {
+            "values": [
+              1236631,
+              1263120,
+              1222476,
+              1497192,
+              1130210
+            ],
+            "min": 1130210,
+            "max": 1497192
+          },
+          "median_proof_ns": {
+            "values": [
+              506013,
+              541087,
+              527466,
+              621094,
+              464825
+            ],
+            "min": 464825,
+            "max": 621094
+          },
+          "median_encode_ns": {
+            "values": [
+              995719,
+              1058233,
+              1012083,
+              1225234,
+              903664
+            ],
+            "min": 903664,
+            "max": 1225234
+          },
+          "median_decode_ns": {
+            "values": [
+              392003,
+              385327,
+              380591,
+              433702,
+              363085
+            ],
+            "min": 363085,
+            "max": 433702
+          },
+          "median_verify_ns": {
+            "values": [
+              626067,
+              650776,
+              658065,
+              763724,
+              594772
+            ],
+            "min": 594772,
+            "max": 763724
+          },
+          "median_total_ns": {
+            "values": [
+              2547342,
+              2639611,
+              2592350,
+              3152979,
+              2312836
+            ],
+            "min": 2312836,
+            "max": 3152979
+          },
+          "median_codec_total_ns": {
+            "values": [
+              2027836,
+              2092605,
+              2042162,
+              2401910,
+              1853307
+            ],
+            "min": 1853307,
+            "max": 2401910
+          },
+          "reset_fresh_total_ratio": {
+            "values": [
+              1.0032496496906367,
+              1.013083213446597,
+              1.001858164307184,
+              1.016242416814756,
+              0.980148783564291
+            ],
+            "min": 0.980148783564291,
+            "max": 1.016242416814756
+          },
+          "reset_fresh_codec_ratio": {
+            "values": [
+              1.0049764010236588,
+              1.0159019962732891,
+              1.0013074904219517,
+              1.0247712510650688,
+              0.9709677841473535
+            ],
+            "min": 0.9709677841473535,
+            "max": 1.0247712510650688
+          },
+          "worst_byte_ratio": 0.520309396592721,
+          "absolute_spread": 1.3632523015034357,
+          "spread_over_120": true,
+          "transfer_boundaries": [
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 230173754.33738923
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 225346760.4028121
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 232838926.8991784
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 190115896.95910746
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 251847001.88460553
+            }
+          ],
+          "finite_boundary_range": [
+            190115896.95910746,
+            251847001.88460553
+          ]
+        },
+        "reset-zlib-dictionary": {
+          "paired_total_ratio": {
+            "values": [
+              1.5976396636066599,
+              1.60415530850736,
+              1.566150418557991,
+              1.6169411681129884,
+              1.5867536487496325
+            ],
+            "min": 1.566150418557991,
+            "max": 1.6169411681129884
+          },
+          "paired_codec_ratio": {
+            "values": [
+              2.000815477801897,
+              1.9786415091483223,
+              1.9834134318795682,
+              2.0265319919975755,
+              1.9666011476397298
+            ],
+            "min": 1.9666011476397298,
+            "max": 2.0265319919975755
+          },
+          "median_bytes": {
+            "values": [
+              39885,
+              39885,
+              39885,
+              39885,
+              39885
+            ],
+            "min": 39885,
+            "max": 39885
+          },
+          "median_saved_bytes": {
+            "values": [
+              32057,
+              32057,
+              32057,
+              32057,
+              32057
+            ],
+            "min": 32057,
+            "max": 32057
+          },
+          "median_extra_total_ns": {
+            "values": [
+              759789,
+              758412,
+              765505,
+              881554,
+              680563
+            ],
+            "min": 680563,
+            "max": 881554
+          },
+          "median_proof_ns": {
+            "values": [
+              500378,
+              543791,
+              520835,
+              601441,
+              459927
+            ],
+            "min": 459927,
+            "max": 601441
+          },
+          "median_encode_ns": {
+            "values": [
+              529568,
+              549595,
+              543285,
+              642394,
+              467905
+            ],
+            "min": 467905,
+            "max": 642394
+          },
+          "median_decode_ns": {
+            "values": [
+              364543,
+              350902,
+              367060,
+              405979,
+              335117
+            ],
+            "min": 335117,
+            "max": 405979
+          },
+          "median_verify_ns": {
+            "values": [
+              638157,
+              649747,
+              670884,
+              745310,
+              584619
+            ],
+            "min": 584619,
+            "max": 745310
+          },
+          "median_total_ns": {
+            "values": [
+              2045850,
+              2124177,
+              2142513,
+              2334628,
+              1867205
+            ],
+            "min": 1867205,
+            "max": 2334628
+          },
+          "median_codec_total_ns": {
+            "values": [
+              1543046,
+              1574632,
+              1596415,
+              1772579,
+              1382777
+            ],
+            "min": 1382777,
+            "max": 1772579
+          },
+          "reset_fresh_total_ratio": {
+            "values": [
+              0.9798947359270396,
+              0.9893847414490949,
+              0.9876540261725093,
+              0.9873234531699497,
+              0.9476690215167245
+            ],
+            "min": 0.9476690215167245,
+            "max": 0.9893847414490949
+          },
+          "reset_fresh_codec_ratio": {
+            "values": [
+              0.9648379476776244,
+              0.9824682814302191,
+              0.9766320277264209,
+              0.9884343996712098,
+              0.9297783644556408
+            ],
+            "min": 0.9297783644556408,
+            "max": 0.9884343996712098
+          },
+          "worst_byte_ratio": 0.5684952583433575,
+          "absolute_spread": 1.2503329843268414,
+          "spread_over_120": true,
+          "transfer_boundaries": [
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 337535815.8646677
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 338148657.98536944
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 335015447.31909
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 290913545.8519841
+            },
+            {
+              "class": "finite_threshold",
+              "bits_per_second": 376829184.0725987
+            }
+          ],
+          "finite_boundary_range": [
+            290913545.8519841,
+            376829184.0725987
+          ]
+        }
+      }
+    }
+  ]
+}

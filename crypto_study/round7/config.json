@@ -1,0 +1,23 @@
+{
+  "seed": 3407,
+  "gomaxprocs": 8,
+  "process_blocks": 5,
+  "minimum_block_start_seconds": 120,
+  "application_rows": 36288,
+  "frozen_rows": 36288,
+  "domains": ["dev", "confirm"],
+  "populations": [4096, 16384],
+  "value_bytes": [32, 1000],
+  "distributions": ["uniform", "zipf"],
+  "zipf_theta": 0.99,
+  "query_counts": [1, 8, 32, 128],
+  "batches": 3,
+  "warmups": 2,
+  "technical_repetitions": 21,
+  "development_byte_ratio_max": 0.8,
+  "time_ratio_max": 1.05,
+  "hot_development_min": 0.05,
+  "frozen_registration_sha256": "90465a3528fb621a94b0d2e877c90fa4c0049e9e0cb6f96b981c9e51b5bd2155",
+  "frozen_runner_sha256": "89738eddc911ddffd16d739276c5488398fbb010c33ba393b29f0e9c4652ae8e",
+  "remote_project": "/RESEARCH_WORKSPACE/ccpe_round6_20261023"
+}

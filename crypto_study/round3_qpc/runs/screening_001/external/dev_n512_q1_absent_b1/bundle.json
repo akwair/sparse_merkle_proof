@@ -1,0 +1,22 @@
+{
+  "Root": "2MofLPArrjNa6ehOhG8Rtgzfs7+M9WmtcIgU/zisaTM=",
+  "Items": [
+    {
+      "Key": "xFjxjn+uxqnQ8mHQSd4Rw7O1luLK89s/gHtnOePZ4bk=",
+      "Value": null,
+      "Proof": {
+        "SideNodes": [
+          "nZG+heBXTHOuVqleux0u2b1RbCV8LrSP59tQHMv5WPk=",
+          "lfpnoVmz76hb3lcVrSsRovEPZ2MAgyXFTyDmNWxFUFY=",
+          "VmshD2mK7HU/ws4LxXjw7/1i43VuaRtaWQCS81yBbY8=",
+          "ek2iiv9eFM3BDOHeSmdx3DtjfITPWwwBtEFEjPfCOao=",
+          "k86jtYyFXO0H9IjDnY1lF3E6yjWAQVqxJEykK3W156M=",
+          "UMAAkV+ZHdjTzXD7wr9dmhAi+C5iWEoFrZQFCdFLcm0=",
+          "fjg3+bw8jLVQgoY+TYrO5gUoZiJdKp9cjXiJwsIvkT8="
+        ],
+        "NonMembershipLeafData": "AJY1GdK6VzD/KvT0EmQ4SAmlpfKiX6V9R6yIgo067xI55OPOzNNnkglWO2fUM1yCkR2I4YXYIhAJ1RFvShfUVQ4=",
+        "SiblingData": null
+      }
+    }
+  ]
+}

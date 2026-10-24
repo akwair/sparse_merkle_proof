@@ -1,0 +1,20 @@
+{
+  "Root": "OU4PKCJOtcXAS5QJ5Icxn1pD0N3ssGnR73nyJP7lTVo=",
+  "Items": [
+    {
+      "Key": "VUgboDZQS6z9IecWcofAwu8FT1VBd3+zPlOQPqFtwCs=",
+      "Value": null,
+      "Proof": {
+        "SideNodes": [
+          "BtE8M5i0JE6FYCNs/nfTEkYBDionZaIw373l7Q/VvMg=",
+          "HnEUydgrbRaQi+RSOwIyKtPMjO2frakbAPYLham5GwM=",
+          "0zhnlDDKTVRy4X+WbYFEMtr0pYoqF1vz2Or1bqlDdu0=",
+          "pzpzAKIowRuDD6yNDuxYfj6ANGUzylkpuVN2yODTy+s=",
+          "+fgh9asVAD2ha64nZxM/ITWsBZ3ceZcKK3AjzkUPwus="
+        ],
+        "NonMembershipLeafData": null,
+        "SiblingData": null
+      }
+    }
+  ]
+}

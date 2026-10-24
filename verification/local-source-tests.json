@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-24",
+  "scope": "Public-source correctness checks; no performance experiments",
+  "go_application": {
+    "command": "go test -count=1 .",
+    "toolchain": "go1.27.3 windows/amd64",
+    "exit_code": 0,
+    "observed_package_seconds": 17.93
+  },
+  "go_allocation": {
+    "command": "go test -count=1 .",
+    "toolchain": "go1.27.3 windows/amd64",
+    "exit_code": 0,
+    "observed_package_seconds": 7.287
+  },
+  "python_existing_analysis": {
+    "command": "python -B -m unittest test_app_analysis test_audit_application test_repetitions",
+    "tests": 9,
+    "exit_code": 0
+  },
+  "frozen_registration_check": {
+    "timing_files": 74,
+    "diagnostic_files": 34,
+    "all_hashes_match": true
+  }
+}

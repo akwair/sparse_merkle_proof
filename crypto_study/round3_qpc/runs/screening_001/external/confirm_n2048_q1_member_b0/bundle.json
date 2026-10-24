@@ -1,0 +1,27 @@
+{
+  "Root": "z8GfF0KpZhYh5a0wOj6CtfRufqPIGL8SHa9Ftmkkm2I=",
+  "Items": [
+    {
+      "Key": "xRv8cM5xYpGXzSVLi/Ac1K9bX1wBW9lYsHzFXDPebH0=",
+      "Value": "Z/+kCqvsVxOxG2Xq45+feZ9EOxFrKfqd3HuYJ2SyYfo=",
+      "Proof": {
+        "SideNodes": [
+          "Nx5Xpz8PrVHrIaazaInLn/f7fAXutJ+4vkb7tC9lb+4=",
+          "qtUCNnTuxCI7c7HTjnWrUX47Hqd7X9mkZkdnlSbQzuw=",
+          "MqkgOsNM8VQ8J5msMTphTI4WP8dCLisUs5GdzM+pUO4=",
+          "BeZ52osttP8qfhZqzbOkXECg+dxd1n7iFQ47SyIiCP8=",
+          "kdXsaFk3OjrLE5aGgdGyRsHJaq0nI9tUv3lAbCAXyWw=",
+          "/y1rx2CTH+/Lldl5HRKlh4B98H4REjF2kVPK/nkXKL4=",
+          "2RtvBwueA7VbohCGUSgW6eBEobN6FnTRrvYWdoZ8yyI=",
+          "ROuMhqHN+n5JFXQQ2VREPXX44p2x01c0RVXwSCFB+uk=",
+          "zwJnt1uJ4SHaeIBNZGs1UcI/9UB1MlqQ36YFPXg68Qk=",
+          "nbload5CUbA3QtzDWWkFlNOHYpLdDPTf5ykLkECLdUM=",
+          "ZJx5wY/7ttEKbTYbuJomcqaXzS5+wj64wIlynQYCpjY=",
+          "4H3vRoSuAZfkLdV3vzrbxaO2q26z9bmscrDXDePQkKg="
+        ],
+        "NonMembershipLeafData": null,
+        "SiblingData": null
+      }
+    }
+  ]
+}

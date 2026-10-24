@@ -1,0 +1,15 @@
+{
+  "supplement": "Round6 third CPU environment replication",
+  "platform_id": "linux_gold",
+  "remote_project": "/RESEARCH_WORKSPACE/ccpe_round6_20261023",
+  "python": "/usr/bin/python3",
+  "formal_work_relative_to_round5": "runs/linux_host3_001",
+  "frozen_registration_sha256": "90465a3528fb621a94b0d2e877c90fa4c0049e9e0cb6f96b981c9e51b5bd2155",
+  "reference_platforms": ["windows_i5", "linux_w5"],
+  "comparison_output": "THREE_PLATFORM.json",
+  "seed": 3407,
+  "gomaxprocs": 8,
+  "expected_rows": 36288,
+  "protocol_source": "../round5/config.json",
+  "scope": "Unchanged binary, data, order, within-platform metrics and decision gates; new execution environment only. All supplementary evidence remains outside the frozen formal run."
+}

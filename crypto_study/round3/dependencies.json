@@ -1,0 +1,31 @@
+{
+  "go": {
+    "filename": "go1.27.3.windows-amd64.zip",
+    "sha256": "f26081f438319757f8a1b46d7d0b2c5ec7583d4038e485e0aa725cfde7885fff"
+  },
+  "smt_commit": "dba215ccb88452c31d823bf156d8f35406c1dc04",
+  "smt_archive_sha256": "155dc6d8e66475186c0d5432c2b751f70a947b60365a9d7b55f7cd3a46a00d71",
+  "smt_files": {
+    ".github/workflows/fuzz_build.yml": "0c954943a6818b66c680a2ab9c5f97f6882956ccaa996c896b5524b64b7c847a",
+    ".github/workflows/test.yml": "5b12b15a615777bea767246e92f906473e5f66c38e67a4ff7f62a83f2870f61b",
+    "bench_test.go": "5d527d40f0e24e03e1d69777abf50cb296d7858227bdada2e47bcf32c6b50be9",
+    "bulk_test.go": "582905c65a0b1d956f4f577b88ccc089b4d3dfecdd1f76ffb0ea7178abc2a001",
+    "deepsubtree.go": "6651e17386cccb641ff1b587acf408cd336eaca79d8abbcc479aa2d4aec7c5aa",
+    "deepsubtree_test.go": "7011d9dc844fed805a638108dfaf76db39a28d56bdf6126c317a1eb9c2bc76b8",
+    "fuzz/delete/fuzz.go": "1beea639dc5cd6f6788de960578aba302b79da884aa908c40cb4ed7a3c436104",
+    "fuzz/fuzz.go": "7513b52eecbe80a3833212f6cdac4354bf2ce006b1d80b2cf6fa9ec6299e226f",
+    "go.mod": "8d83b1eb147575d8cb47c092f39a43300c8f01354eddd4ebad604886652ef063",
+    "LICENSE": "279f34c3c19a8dba8d93891b5a70866e32b7e3a20fdaf91a16d937a526346a44",
+    "mapstore.go": "6d95301eb6ccaaafffd9975f29b82e3ec2d9d56b6478a844e5b8e98abda546e0",
+    "mapstore_test.go": "334356b9df3ca69027c5ac9bdcf4a467e9e9c44589a6f2d0c27483364348e906",
+    "options.go": "92003bd6b0f7dcdd5b95d3a1a77bf6912303771f14bf10ee17041bc10c82ce9c",
+    "oss-fuzz-build.sh": "9134597b2d129c7380861f28de90546993a437394d1c21717f6478cc1ce8dcd6",
+    "proofs.go": "e09eddfa68c703ae0c4dd58eec23af31bfc80ae0e80425e89fc71d2330594c46",
+    "proofs_test.go": "2dc5faa143d8b36623853e306dd84c408f8fe8663f315c963d326750940a255e",
+    "README.md": "be6d1f056c74b7391648bea108cd83c3b763472130e24a30a1a88a0a143417ae",
+    "smt.go": "1adc0ba0f0f52949ab33aee21f39be2cd9cd6fb75d7aa13c1258c344987ec4c9",
+    "smt_test.go": "a8a442213ed8564d760a25e65feae58ebeb0e3beac06743a541d91f35966dbd5",
+    "treehasher.go": "59aa123653e6cb89581addc1945edaab1a9a181d9574c1437955b10c55c77689",
+    "utils.go": "5eab00e4bf7a4b8cd6a03d052c7ecc1cfadcac7a0d76caa0c1a951cf4003ca8d"
+  }
+}
