@@ -1,0 +1,317 @@
+{
+  "schema": "round8-registration-bindings-v1",
+  "registration_sha256": "04b2077a532c9424b1657fa09b4e65a57192571ed193f05c1716eb31219a8b17",
+  "files": {
+    "ADAPTATION.md": {
+      "registered_sha256": "2939cc199fb9fcafef43cf05bb0a3d711b432fab8c84dc1df74e5348292928ab",
+      "public_path": "crypto_study/round8/ADAPTATION.md",
+      "public_sha256": "2939cc199fb9fcafef43cf05bb0a3d711b432fab8c84dc1df74e5348292928ab",
+      "binding_kind": "exact"
+    },
+    "INPUT_MANIFEST.json": {
+      "registered_sha256": "1db161fdce8bdd5bc5244ce7583a1fda5d9854039384da371e8596d87e7c4225",
+      "public_path": "crypto_study/round8/INPUT_MANIFEST.json",
+      "public_sha256": "1db161fdce8bdd5bc5244ce7583a1fda5d9854039384da371e8596d87e7c4225",
+      "binding_kind": "exact"
+    },
+    "LITERATURE.md": {
+      "registered_sha256": "3d6b6e55b4f515e22afcb319e761381db2c184ee5950214ee9404e01f7864c04",
+      "public_path": "crypto_study/round8/LITERATURE.md",
+      "public_sha256": "3d6b6e55b4f515e22afcb319e761381db2c184ee5950214ee9404e01f7864c04",
+      "binding_kind": "exact"
+    },
+    "PLAN.md": {
+      "registered_sha256": "de4018f64040b52a9a8e6ecebbbf2803523894c9b93f046396ef5985842faa4c",
+      "public_path": "crypto_study/round8/PLAN.md",
+      "public_sha256": "f0df8b5857483296976d32463c52fd0d24abff19508e51dc4d1d3cb91717f1ca",
+      "binding_kind": "projected_metadata"
+    },
+    "SCHEDULE.json": {
+      "registered_sha256": "ab66e6583f5118ba67b808c764a9f88ca80c810f10610c2b830f88f13b38a558",
+      "public_path": "crypto_study/round8/SCHEDULE.json",
+      "public_sha256": "ab66e6583f5118ba67b808c764a9f88ca80c810f10610c2b830f88f13b38a558",
+      "binding_kind": "exact"
+    },
+    "analysis.py": {
+      "registered_sha256": "f8dcbeb9c283d6a10c1b731d023434af107df4a176b8656e2d9e37a1753e66e4",
+      "public_path": "crypto_study/round8/analysis.py",
+      "public_sha256": "f8dcbeb9c283d6a10c1b731d023434af107df4a176b8656e2d9e37a1753e66e4",
+      "binding_kind": "exact"
+    },
+    "config.json": {
+      "registered_sha256": "7b2c5141c1938d842ca6fcb118b92646967df234a09ffb02c90184f3da4566be",
+      "public_path": "crypto_study/round8/config.json",
+      "public_sha256": "53ccf34d668629fff7788e66c3f89aedc4f84966b2c94561ad8c75874f704b87",
+      "binding_kind": "projected_metadata"
+    },
+    "control.py": {
+      "registered_sha256": "f80139246cbc6030edf34d07c8f99d72d996b7373af5aaa328dc2a017fc8e9ee",
+      "public_path": "crypto_study/round8/control.py",
+      "public_sha256": "7974193e6947a4a78f1ffef816126d884b30a574b63f8bec49d72d54387016c6",
+      "binding_kind": "projected_metadata"
+    },
+    "preflight_source_003/external/smt/LICENSE": {
+      "registered_sha256": "279f34c3c19a8dba8d93891b5a70866e32b7e3a20fdaf91a16d937a526346a44",
+      "public_path": "crypto_study/round8/external/smt/LICENSE",
+      "public_sha256": "279f34c3c19a8dba8d93891b5a70866e32b7e3a20fdaf91a16d937a526346a44",
+      "binding_kind": "exact"
+    },
+    "preflight_source_003/external/smt/bench_test.go": {
+      "registered_sha256": "5d527d40f0e24e03e1d69777abf50cb296d7858227bdada2e47bcf32c6b50be9",
+      "public_path": "crypto_study/round8/external/smt/bench_test.go",
+      "public_sha256": "5d527d40f0e24e03e1d69777abf50cb296d7858227bdada2e47bcf32c6b50be9",
+      "binding_kind": "exact"
+    },
+    "preflight_source_003/external/smt/bulk_test.go": {
+      "registered_sha256": "582905c65a0b1d956f4f577b88ccc089b4d3dfecdd1f76ffb0ea7178abc2a001",
+      "public_path": "crypto_study/round8/external/smt/bulk_test.go",
+      "public_sha256": "582905c65a0b1d956f4f577b88ccc089b4d3dfecdd1f76ffb0ea7178abc2a001",
+      "binding_kind": "exact"
+    },
+    "preflight_source_003/external/smt/deepsubtree.go": {
+      "registered_sha256": "6651e17386cccb641ff1b587acf408cd336eaca79d8abbcc479aa2d4aec7c5aa",
+      "public_path": "crypto_study/round8/external/smt/deepsubtree.go",
+      "public_sha256": "6651e17386cccb641ff1b587acf408cd336eaca79d8abbcc479aa2d4aec7c5aa",
+      "binding_kind": "exact"
+    },
+    "preflight_source_003/external/smt/deepsubtree_test.go": {
+      "registered_sha256": "7011d9dc844fed805a638108dfaf76db39a28d56bdf6126c317a1eb9c2bc76b8",
+      "public_path": "crypto_study/round8/external/smt/deepsubtree_test.go",
+      "public_sha256": "7011d9dc844fed805a638108dfaf76db39a28d56bdf6126c317a1eb9c2bc76b8",
+      "binding_kind": "exact"
+    },
+    "preflight_source_003/external/smt/fuzz/delete/fuzz.go": {
+      "registered_sha256": "1beea639dc5cd6f6788de960578aba302b79da884aa908c40cb4ed7a3c436104",
+      "public_path": "crypto_study/round8/external/smt/fuzz/delete/fuzz.go",
+      "public_sha256": "1beea639dc5cd6f6788de960578aba302b79da884aa908c40cb4ed7a3c436104",
+      "binding_kind": "exact"
+    },
+    "preflight_source_003/external/smt/fuzz/fuzz.go": {
+      "registered_sha256": "7513b52eecbe80a3833212f6cdac4354bf2ce006b1d80b2cf6fa9ec6299e226f",
+      "public_path": "crypto_study/round8/external/smt/fuzz/fuzz.go",
+      "public_sha256": "7513b52eecbe80a3833212f6cdac4354bf2ce006b1d80b2cf6fa9ec6299e226f",
+      "binding_kind": "exact"
+    },
+    "preflight_source_003/external/smt/go.mod": {
+      "registered_sha256": "8d83b1eb147575d8cb47c092f39a43300c8f01354eddd4ebad604886652ef063",
+      "public_path": "crypto_study/round8/external/smt/go.mod",
+      "public_sha256": "8d83b1eb147575d8cb47c092f39a43300c8f01354eddd4ebad604886652ef063",
+      "binding_kind": "exact"
+    },
+    "preflight_source_003/external/smt/mapstore.go": {
+      "registered_sha256": "6d95301eb6ccaaafffd9975f29b82e3ec2d9d56b6478a844e5b8e98abda546e0",
+      "public_path": "crypto_study/round8/external/smt/mapstore.go",
+      "public_sha256": "6d95301eb6ccaaafffd9975f29b82e3ec2d9d56b6478a844e5b8e98abda546e0",
+      "binding_kind": "exact"
+    },
+    "preflight_source_003/external/smt/mapstore_test.go": {
+      "registered_sha256": "334356b9df3ca69027c5ac9bdcf4a467e9e9c44589a6f2d0c27483364348e906",
+      "public_path": "crypto_study/round8/external/smt/mapstore_test.go",
+      "public_sha256": "334356b9df3ca69027c5ac9bdcf4a467e9e9c44589a6f2d0c27483364348e906",
+      "binding_kind": "exact"
+    },
+    "preflight_source_003/external/smt/options.go": {
+      "registered_sha256": "92003bd6b0f7dcdd5b95d3a1a77bf6912303771f14bf10ee17041bc10c82ce9c",
+      "public_path": "crypto_study/round8/external/smt/options.go",
+      "public_sha256": "92003bd6b0f7dcdd5b95d3a1a77bf6912303771f14bf10ee17041bc10c82ce9c",
+      "binding_kind": "exact"
+    },
+    "preflight_source_003/external/smt/proofs.go": {
+      "registered_sha256": "e09eddfa68c703ae0c4dd58eec23af31bfc80ae0e80425e89fc71d2330594c46",
+      "public_path": "crypto_study/round8/external/smt/proofs.go",
+      "public_sha256": "e09eddfa68c703ae0c4dd58eec23af31bfc80ae0e80425e89fc71d2330594c46",
+      "binding_kind": "exact"
+    },
+    "preflight_source_003/external/smt/proofs_test.go": {
+      "registered_sha256": "2dc5faa143d8b36623853e306dd84c408f8fe8663f315c963d326750940a255e",
+      "public_path": "crypto_study/round8/external/smt/proofs_test.go",
+      "public_sha256": "2dc5faa143d8b36623853e306dd84c408f8fe8663f315c963d326750940a255e",
+      "binding_kind": "exact"
+    },
+    "preflight_source_003/external/smt/smt.go": {
+      "registered_sha256": "1adc0ba0f0f52949ab33aee21f39be2cd9cd6fb75d7aa13c1258c344987ec4c9",
+      "public_path": "crypto_study/round8/external/smt/smt.go",
+      "public_sha256": "1adc0ba0f0f52949ab33aee21f39be2cd9cd6fb75d7aa13c1258c344987ec4c9",
+      "binding_kind": "exact"
+    },
+    "preflight_source_003/external/smt/smt_test.go": {
+      "registered_sha256": "a8a442213ed8564d760a25e65feae58ebeb0e3beac06743a541d91f35966dbd5",
+      "public_path": "crypto_study/round8/external/smt/smt_test.go",
+      "public_sha256": "a8a442213ed8564d760a25e65feae58ebeb0e3beac06743a541d91f35966dbd5",
+      "binding_kind": "exact"
+    },
+    "preflight_source_003/external/smt/treehasher.go": {
+      "registered_sha256": "59aa123653e6cb89581addc1945edaab1a9a181d9574c1437955b10c55c77689",
+      "public_path": "crypto_study/round8/external/smt/treehasher.go",
+      "public_sha256": "59aa123653e6cb89581addc1945edaab1a9a181d9574c1437955b10c55c77689",
+      "binding_kind": "exact"
+    },
+    "preflight_source_003/external/smt/utils.go": {
+      "registered_sha256": "5eab00e4bf7a4b8cd6a03d052c7ecc1cfadcac7a0d76caa0c1a951cf4003ca8d",
+      "public_path": "crypto_study/round8/external/smt/utils.go",
+      "public_sha256": "5eab00e4bf7a4b8cd6a03d052c7ecc1cfadcac7a0d76caa0c1a951cf4003ca8d",
+      "binding_kind": "exact"
+    },
+    "preflight/archive_check_003/completion.json": {
+      "registered_sha256": "cda061deaae9e6b22748fee29010d50d93355ea19ccdc61ebd6b9bddb502003d",
+      "public_path": "crypto_study/round8/preflight/archive_check_003/completion.json",
+      "public_sha256": "b9acd9011438f9a7a01f225697e387b2ec62ac78bb2465c9a2aba8eddd06440a",
+      "binding_kind": "projected_metadata"
+    },
+    "preflight/crosshost_http_smoke_001/NUMERICAL_AUDIT.json": {
+      "registered_sha256": "3bb7bac6910e2541814e54c6478fecd83ec671ca4e33a844616d830f0624ece3",
+      "public_path": "crypto_study/round8/preflight/crosshost_http_smoke_001/NUMERICAL_AUDIT.json",
+      "public_sha256": "a736a436f2909c99b31b44114a3a4a1b5591570ab07d1f39366fe63305176822",
+      "binding_kind": "projected_metadata"
+    },
+    "preflight/crosshost_http_smoke_001/completion.json": {
+      "registered_sha256": "a88c33d71d22a8446ba1ecdd718ef41370cf9e9c42ecffd03e0df035acd09320",
+      "public_path": "crypto_study/round8/preflight/crosshost_http_smoke_001/completion.json",
+      "public_sha256": "a88c33d71d22a8446ba1ecdd718ef41370cf9e9c42ecffd03e0df035acd09320",
+      "binding_kind": "exact"
+    },
+    "preflight/crosshost_probe_001/completion.json": {
+      "registered_sha256": "c82fc2cef94d6bc5cb7948a925d69fb649d38ca0655b721eb32417268da399a7",
+      "public_path": "crypto_study/round8/preflight/crosshost_probe_001/completion.json",
+      "public_sha256": "c82fc2cef94d6bc5cb7948a925d69fb649d38ca0655b721eb32417268da399a7",
+      "binding_kind": "exact"
+    },
+    "preflight/http_smoke_001/NUMERICAL_AUDIT.json": {
+      "registered_sha256": "4c3d837f10234ffc8b3f6305d736e7eac0411bd1d616ac1ced403f78fbe671f4",
+      "public_path": "crypto_study/round8/preflight/http_smoke_001/NUMERICAL_AUDIT.json",
+      "public_sha256": "a658ebe38a60132d6d39e5190d2c419808a2cbe243fc06ff74931cf13a5fa0de",
+      "binding_kind": "projected_metadata"
+    },
+    "preflight/http_smoke_001/completion.json": {
+      "registered_sha256": "a88c33d71d22a8446ba1ecdd718ef41370cf9e9c42ecffd03e0df035acd09320",
+      "public_path": "crypto_study/round8/preflight/http_smoke_001/completion.json",
+      "public_sha256": "a88c33d71d22a8446ba1ecdd718ef41370cf9e9c42ecffd03e0df035acd09320",
+      "binding_kind": "exact"
+    },
+    "preflight/link_probe_001/completion.json": {
+      "registered_sha256": "50e915ce8fcc094865943e525091d55d9bae4613caf3bca809f559560f47860d",
+      "public_path": "crypto_study/round8/preflight/link_probe_001/completion.json",
+      "public_sha256": "50e915ce8fcc094865943e525091d55d9bae4613caf3bca809f559560f47860d",
+      "binding_kind": "exact"
+    },
+    "preflight/linux_preflight_003.json": {
+      "registered_sha256": "ceebfd25be4156ecf394abd3540ba400a0836fa0d669ebc01320de105255c414",
+      "public_path": "crypto_study/round8/preflight/linux_preflight_003.json",
+      "public_sha256": "bb9b12ffcfba642a138eaa7c139bab2f1949a56828f3ea2307635bb783b3a75b",
+      "binding_kind": "projected_metadata"
+    },
+    "preflight/primary_proc_clock_ticks.json": {
+      "registered_sha256": "7cadc452f47924cb4245869704b9e1aa70c3be9ab014306bb2d35aec5be1301d",
+      "public_path": "crypto_study/round8/preflight/primary_proc_clock_ticks.json",
+      "public_sha256": "7cadc452f47924cb4245869704b9e1aa70c3be9ab014306bb2d35aec5be1301d",
+      "binding_kind": "exact"
+    },
+    "preflight/private_link.json": {
+      "registered_sha256": "403a3395e4952f9a245fe08e8d2909daae843f200347f73b005801ae548ee65f",
+      "public_path": "crypto_study/round8/preflight/private_link.json",
+      "public_sha256": "c803666948aaeddfe4da636f0a1b5352a1caa4538ea98adf779f28cdd45a96cb",
+      "binding_kind": "projected_metadata"
+    },
+    "preflight/private_link_identity.json": {
+      "registered_sha256": "7335bbad8b34a5603dd09025903d4a201a80006723fc4e04f5a92be534262b36",
+      "public_path": "crypto_study/round8/preflight/private_link_identity.json",
+      "public_sha256": "7335bbad8b34a5603dd09025903d4a201a80006723fc4e04f5a92be534262b36",
+      "binding_kind": "exact"
+    },
+    "preflight/secondary_proc_clock_ticks.json": {
+      "registered_sha256": "8bc56de0aa57fd8326be849f69f909021e87f463bc1ec58ba219e73028b502c6",
+      "public_path": "crypto_study/round8/preflight/secondary_proc_clock_ticks.json",
+      "public_sha256": "8bc56de0aa57fd8326be849f69f909021e87f463bc1ec58ba219e73028b502c6",
+      "binding_kind": "exact"
+    },
+    "preflight_source_003/runner/archive.go": {
+      "registered_sha256": "5e3569ba310a1cda2d0fed97a82fed83a29c314c0b8a3c6471afe0af647a0b67",
+      "public_path": "crypto_study/round8/runner/archive.go",
+      "public_sha256": "5e3569ba310a1cda2d0fed97a82fed83a29c314c0b8a3c6471afe0af647a0b67",
+      "binding_kind": "exact"
+    },
+    "preflight_source_003/runner/client.go": {
+      "registered_sha256": "3605c8d369f8eec8ef454e18171f95fba8bd63de5a91fb2f10aa56bb3350246d",
+      "public_path": "crypto_study/round8/runner/client.go",
+      "public_sha256": "3605c8d369f8eec8ef454e18171f95fba8bd63de5a91fb2f10aa56bb3350246d",
+      "binding_kind": "exact"
+    },
+    "preflight_source_003/runner/client_compact_boundary_test.go": {
+      "registered_sha256": "5ae014664f4bb75dc955aeb3379b2c8802028279738005ea7e0d4b57ac730ad5",
+      "public_path": "crypto_study/round8/runner/client_compact_boundary_test.go",
+      "public_sha256": "5ae014664f4bb75dc955aeb3379b2c8802028279738005ea7e0d4b57ac730ad5",
+      "binding_kind": "exact"
+    },
+    "preflight_source_003/runner/client_safe_decode.go": {
+      "registered_sha256": "8047e7a948bc6fa8500b56d9bf83f2a544caf409752df4ee74c68c52ae77c9df",
+      "public_path": "crypto_study/round8/runner/client_safe_decode.go",
+      "public_sha256": "8047e7a948bc6fa8500b56d9bf83f2a544caf409752df4ee74c68c52ae77c9df",
+      "binding_kind": "exact"
+    },
+    "preflight_source_003/runner/client_test.go": {
+      "registered_sha256": "840052649089c636d8da55a7c31ed4042adcca1ebfc41fd8cd6400e2ad054bdd",
+      "public_path": "crypto_study/round8/runner/client_test.go",
+      "public_sha256": "840052649089c636d8da55a7c31ed4042adcca1ebfc41fd8cd6400e2ad054bdd",
+      "binding_kind": "exact"
+    },
+    "preflight_source_003/runner/clock.go": {
+      "registered_sha256": "2916d738c854e1ef6266ae030fc8490316a0525f7b0a1cac5cbfeceeb7871d48",
+      "public_path": "crypto_study/round8/runner/clock.go",
+      "public_sha256": "2916d738c854e1ef6266ae030fc8490316a0525f7b0a1cac5cbfeceeb7871d48",
+      "binding_kind": "exact"
+    },
+    "preflight_source_003/runner/codec.go": {
+      "registered_sha256": "e718c576900e2189507f77ed6b847232a9a12ab9ecd0f5de4d58beb5501dee52",
+      "public_path": "crypto_study/round8/runner/codec.go",
+      "public_sha256": "e718c576900e2189507f77ed6b847232a9a12ab9ecd0f5de4d58beb5501dee52",
+      "binding_kind": "exact"
+    },
+    "preflight_source_003/runner/go.mod": {
+      "registered_sha256": "2186c1bb91457014062ef2abbdf37c94ac0f6eb87eacae78e2b34ae3d7fe41ad",
+      "public_path": "crypto_study/round8/runner/go.mod",
+      "public_sha256": "2186c1bb91457014062ef2abbdf37c94ac0f6eb87eacae78e2b34ae3d7fe41ad",
+      "binding_kind": "exact"
+    },
+    "preflight_source_003/runner/http.go": {
+      "registered_sha256": "8f6203618d7cb97f1fae5f73ca43591fb7346644935b0a5860d61c0dea5eb953",
+      "public_path": "crypto_study/round8/runner/http.go",
+      "public_sha256": "8f6203618d7cb97f1fae5f73ca43591fb7346644935b0a5860d61c0dea5eb953",
+      "binding_kind": "exact"
+    },
+    "preflight_source_003/runner/legacy.go": {
+      "registered_sha256": "5d0026a930fbc6d8418af19e16e68a4e6effee73f5186603968486b9dc6e565c",
+      "public_path": "crypto_study/round8/runner/legacy.go",
+      "public_sha256": "5d0026a930fbc6d8418af19e16e68a4e6effee73f5186603968486b9dc6e565c",
+      "binding_kind": "exact"
+    },
+    "preflight_source_003/runner/main.go": {
+      "registered_sha256": "6c861ed71f7cb5473de2a857d12646411a2f33b0d341ded69aec80808e0d1598",
+      "public_path": "crypto_study/round8/runner/main.go",
+      "public_sha256": "6c861ed71f7cb5473de2a857d12646411a2f33b0d341ded69aec80808e0d1598",
+      "binding_kind": "exact"
+    },
+    "preflight_source_003/runner/runner_test.go": {
+      "registered_sha256": "42de0ea5642181b54f880ea5167cc2239dc8032bce3b30c4e43ffaac28f1a985",
+      "public_path": "crypto_study/round8/runner/runner_test.go",
+      "public_sha256": "42de0ea5642181b54f880ea5167cc2239dc8032bce3b30c4e43ffaac28f1a985",
+      "binding_kind": "exact"
+    },
+    "preflight_source_003/runner/snapshot.go": {
+      "registered_sha256": "587f780994d8d4ada0c5c826b0c292c0b55ab87ae09dfae3e6f548cecd068c5a",
+      "public_path": "crypto_study/round8/runner/snapshot.go",
+      "public_sha256": "587f780994d8d4ada0c5c826b0c292c0b55ab87ae09dfae3e6f548cecd068c5a",
+      "binding_kind": "exact"
+    },
+    "server_manager.py": {
+      "registered_sha256": "72c520085905aa1f97b6a3e50fe9a4b4a53a493f31d06bb052b67eed91b9af83",
+      "public_path": "crypto_study/round8/server_manager.py",
+      "public_sha256": "0172c200dfe2a02d1230f80188ae8b52a61ff8cb36c27bc1a72093ebb33d7973",
+      "binding_kind": "projected_metadata"
+    },
+    "bin/netbench_final": {
+      "registered_sha256": "ee1c33b796457dd8a2e9b518d685641ed4d6cf0783b8e6d6a2cb2b58f7b56bdf",
+      "binding_kind": "excluded_binary",
+      "public_path": null
+    }
+  }
+}

@@ -1,62 +1,62 @@
-# Sparse Merkle proof transport: reproducible empirical study
+# Sparse Merkle proof encoding: reproducible empirical study
 
-Research artifact for **Workload and Runtime Sensitivity of Sparse Merkle Proof Transport: An Empirical Study** (research manuscript; not an accepted publication).
+Research artifact for **Sparse Merkle Proof Encoding: Size, Processing Cost and Verified Serving Performance** (research manuscript; no journal acceptance is claimed).
 
-The study evaluates ordinary binary transport, native compaction, node dictionaries and whole-response zlib with fresh or reused writers. All representations restore the original ordered proof bundle for the same pinned Celestia SMT individual-proof verifier. It introduces no new cryptographic primitive.
+This repository studies ordinary binary encoding, native compaction, node dictionaries and whole-response zlib with fresh or reused writers. Every representation restores the original ordered proof bundle for the same pinned Celestia SMT individual-proof verifier. The study introduces no new cryptographic primitive.
 
-## What the evidence supports
+## Evidence and version scope
 
-- Controlled hashed-path clustering improves dictionary byte savings, but popularity-skewed requests do not meet the prespecified improvement threshold in every application condition.
-- Larger values dilute unchanged absolute node savings; the 96 matched payload comparisons retain exact byte accounting.
-- Reusing a compressor preserves frame bytes and reduces allocation, while its timing outcome depends on the measured environment and bundle size.
-- No tested alternative meets the registered joint byte/time criterion. Negative results and the invalid early timer run remain available.
-- Five fresh processes use the same seed and inputs in one Linux session. They are not independent workload seeds. Absolute timing variation remains substantial.
+[v1.0.0](https://github.com/akwair/sparse_merkle_proof/releases/tag/v1.0.0) preserves the earlier local processing, workload and runtime study. Its data ZIP and checksum are unchanged. Controlled hashed-path clustering improves dictionary byte savings; larger values dilute unchanged absolute node savings; compressor reuse preserves frames and reduces allocation, with environment-dependent timing. No tested alternative meets the earlier registered joint byte/local-time criterion. Negative results and the invalid early timer run remain available.
 
-**This is a single-seed experiment (seed 3407); random-workload noise remains a risk.** The application is synthetic and read-only. There is one SMT implementation, no measured network/RPC service, no concurrent client benchmark and no multiproof comparison. Transfer boundaries are a serial model, not observed network speedups. Research decoders have not been hardened for untrusted production traffic.
+Round 8 adds actual verified HTTP serving, concurrent clients and controlled private links. Its independently audited 444 windows comprise 384 formal windows and 60 diagnostics. Four network modes are timed: ordinary, dictionary, fresh zlib-ordinary and reset-zlib-ordinary. All nine modes remain subject to correctness checks.
 
-## Download and verify the recorded evidence
+The Round 8 engineering gate qualifies 15 of 48 predeclared classifications: 9/36 cross-host, 0/3 small-request anchors and 6/9 controlled-link classifications. Each alternative qualifies in 3/12 cross-host strata and 2/3 controlled profiles. All qualifying cross-host cases use C4 or C16; controlled qualifications occur on the nominal 10/100 Mbit/s profiles, not unshaped veth. These results do not revise the earlier local-time rejections. See [Round 8 details](crypto_study/round8/README.md) for exact conditions, qualification patterns and limits.
 
-Use release [v1.0.0](https://github.com/akwair/sparse_merkle_proof/releases/tag/v1.0.0) for the full public data ZIP and its SHA-256 checksum. The Git checkout contains source, vendored dependency licenses, protocols and small summaries; raw measurements are a separate release asset. Extract the ZIP into a **new** directory, not over historical experiments.
+**This is a single-seed experiment (seed 3407); random-workload noise remains a risk.** The older five-process replication and the new three process epochs per topology reuse fixed inputs in their respective host sessions. They are not independent workload seeds, days or machines. The application is synthetic and read-only and uses one SMT implementation.
+
+Round 8 reports verified end-to-end serving performance. All 48 replay/native diagnostics fall below the declared 1.25 headroom indicator, so server-only capacity is not established. Closed-loop latency quantiles are conditional successful-response observations, not fixed-arrival-rate SLOs; 42/72 controlled windows have low-count p99 flags. Application body bytes are not physical network traffic.
+
+Statements in the Round 1–7 records about no network/RPC measurement, no concurrent client benchmark, and serial transfer models describe those earlier experiments. They remain accurate for that version. Round 8 is separate evidence, not a retrospective conversion of the serial model into observed speedups. There is no multiproof-system comparison or production decoder-hardening claim.
+
+## Download and verify
+
+Use the existing [v1.0.0 release](https://github.com/akwair/sparse_merkle_proof/releases/tag/v1.0.0) for the original data ZIP and checksum. The [v1.1.0 artifact page](https://github.com/akwair/sparse_merkle_proof/releases/tag/v1.1.0) identifies the separately prepared Round 8 artifact. Its verified archive filename, byte length, SHA-256 and manifest digest are recorded in DATA.json. Check the versioned page for asset availability; local package verification alone does not establish public availability or an independently verified download.
+
+Extract each version into its own new directory. Do not overlay v1.1 on v1.0 or overwrite historical experiments. The Git checkout contains source, licenses, protocols and small summaries; full raw data are separate versioned assets.
 
 ```sh
-python -B tools/verify_public.py /path/to/extracted-data
+# Existing v1.0 data:
+python -B tools/verify_public.py /absolute/path/to/fresh-v1.0-extraction
+
+# For the separately prepared v1.1 artifact:
+python -B tools/verify_round8_public.py /absolute/path/to/fresh-v1.1-extraction
 ```
 
-The verifier checks the public projection inventory and recomputes recorded results without starting a new timing experiment or changing recorded data. See [reproduction instructions](REPRODUCING.md) for full checks and the distinction between archival verification and new measurements.
+These standard-library verification paths inspect archived data without launching a timing experiment. The Round 8 checker verifies every scheduled window and distinguishes historical original hashes from current projected metadata hashes. See [reproduction instructions](REPRODUCING.md) for full commands and resource considerations.
 
 ## Code layout
 
 | Path | Purpose |
 |---|---|
-| `crypto_study/round3` | Original baseline screening, including the documented invalid timer run |
+| `crypto_study/round3` | Original screening, including the documented invalid timer run |
 | `crypto_study/round3_qpc` | Registered timer correction and corrected screening |
-| `crypto_study/round4` | Controlled locality and compressor lifecycle study on Windows |
-| `crypto_study/round5` | Linux replication, three-platform measurement sources and controlled-corpus repeats |
+| `crypto_study/round4` | Locality and compressor lifecycle study on Windows |
+| `crypto_study/round5` | Linux replication, platform sources and controlled-corpus repeats |
 | `crypto_study/round6` | Third-platform protocol and comparison |
-| `crypto_study/round7` | Application workload, repeated processes, analysis and allocation diagnostic |
-| `tools` | Public projection verification and its tests |
+| `crypto_study/round7` | Application workload, repeated processes and allocation diagnostic |
+| `crypto_study/round8` | Verified native HTTP serving, concurrent clients and controlled links |
+| `tools` | Version-specific public verification and release infrastructure |
 
-The original runners are retained as historical sources. Their registration validators bind private environment records and executable hashes; rebuilding or redacting a path does not recreate that original registration. Public verification uses `PUBLIC_MANIFEST.json` and reports original and public hashes separately. Do not bypass a historical validator or overwrite its registration to present a new run as an old one.
+The formal experiments used Go 1.27.3. The SMT module is included through local `replace` directives, so Go package downloads are unnecessary. Python numerical verification uses the standard library; figure regeneration requires `matplotlib` and `numpy`. Tests and archive correctness checks are separate from timing evidence.
 
-## Build and test
+Historical registrations bind original executable/source/environment hashes. Rebuilding an executable or projecting a private path does not reproduce that old registration. Do not bypass a validator or rewrite a registration to relabel a new experiment. A new timing run needs a new plan, environment/source hashes and exclusive run identity.
 
-The formal experiments used Go 1.27.3 (`windows/amd64` or `linux/amd64`, Linux CGO disabled) and Python 3.10+. The SMT module is vendored using local `replace` directives, so Go package downloads are unnecessary. Tests are correctness checks, not performance evidence.
+## Provenance, licensing and responsibility
 
-```sh
-cd crypto_study/round7/runner
-GOTOOLCHAIN=local GOPROXY=off go test -count=1 .
-```
+Project-authored code and synthetic data use the MIT permission grant. Vendored Celestia SMT retains its original MIT license/copyright; see [third-party notices](THIRD_PARTY_NOTICES.md). Cite the actual repository version and commit for reuse. No external article PDF or full-text copy, manuscript/preprint, credential, or private delivery product is distributed.
 
-The 72 legacy bundles and 288 baseline frames needed by the tests are included in the checkout. Python numerical checks need only the standard library; the early Ed25519 screening runner additionally uses `cryptography`. Figure regeneration uses `matplotlib` and `numpy`.
+Raw observations, proof frames, checkpoints and scientific numerical fields are protected. Only explicitly reviewed path/account/endpoint metadata may be projected, including path-bearing fields inside EVAL; original and current digests remain separate. Registrations and historical EVAL source receipts are not rewritten to pass current checks. See [public projection policy](PUBLICATION_POLICY.md).
 
-Documents inside `crypto_study/round*` are historical records. Statements there about a repository not yet existing describe their original date; this README and the versioned release describe current availability.
+OpenAI Codex (October 2026; model build not recorded) assisted with literature review, study design, code and experimental workflows, analysis, figures and drafting. Human authors remain responsible for verification, interpretation and the final manuscript. Automated artifact verification is distinct from scientific author review.
 
-## Provenance and licensing
-
-Code authored for this artifact is licensed under MIT. Vendored Celestia SMT files retain their original MIT license and copyright notices; see [third-party notices](THIRD_PARTY_NOTICES.md). The synthetic numerical observations and fixtures are shared for reproduction and reuse with attribution to this repository and version. No external article PDF or full-text copy is redistributed. The manuscript itself is not released as a preprint here.
-
-The public data projection preserves raw measurement rows, frames, checkpoints and numerical evaluation results. Server identifiers and private filesystem paths are redacted with a per-file change record. Compiled executables, caches, third-party literature copies and private delivery products are omitted and inventoried. Original private archives remain unchanged. See [public projection policy](PUBLICATION_POLICY.md).
-
-OpenAI Codex assisted with literature review, study design, code and experimental workflows, analysis, figures and drafting. Human authors remain responsible for verification, interpretation and the final manuscript. Automated artifact verification is distinct from scientific author review.
-
-For citation before journal publication, cite this repository, the release version and commit hash; no journal acceptance or DOI is claimed.
+No journal acceptance or DOI is claimed. Until publication, cite this repository and the actual release version/commit.

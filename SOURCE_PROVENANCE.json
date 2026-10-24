@@ -3182,7 +3182,7 @@
       "original_sha256": "dbf804ed5cd6fe7c6404c4516c9b27e367adc035549479e966e4155742d6ceec",
       "metadata_redacted": false
     },
-    "crypto_study/round7/REVISION_REPORT_\u4e2d\u6587.md": {
+    "crypto_study/round7/REVISION_REPORT_中文.md": {
       "sha256": "656468005290a0d9f4b4dd9b457807a55e466a751d2c61f32c07b5e2d8769b21",
       "original_sha256": "656468005290a0d9f4b4dd9b457807a55e466a751d2c61f32c07b5e2d8769b21",
       "metadata_redacted": false
@@ -3298,5 +3298,261 @@
       "metadata_redacted": false
     }
   },
-  "scope": "Release documentation and tools are new; historical files retain these original/public hashes. All Go sources in the checkout are byte-identical to historical sources."
+  "scope": "Release documentation and tools are new; historical files retain these original/public hashes. All Go sources in the checkout are byte-identical to historical sources.",
+  "round8": {
+    "release_version": "1.1.0",
+    "data_archive": {
+      "name": "sparse-merkle-proof-data-v1.1.0.zip",
+      "sha256": "7fea1951ba764fcf49dada0deef4bf7565243e83177af297b91b74f97eab2fa1",
+      "bytes": 642542217
+    },
+    "public_manifest_sha256": "4d931c6f0e8662e86debfe8912b166135422419807d79f6e7f0a700ccc7f0f69",
+    "source_subset_export": {
+      "name": "ROUND8_SOURCE_SUBSET.zip",
+      "bytes": 167915,
+      "sha256": "0220dc522b5b23494b951a48786f5c1edb6578fd4cd85115a5d7da9677bb7fd6"
+    },
+    "canonical_public_source_files": {
+      "crypto_study/round8/ADAPTATION.md": {
+        "sha256": "2939cc199fb9fcafef43cf05bb0a3d711b432fab8c84dc1df74e5348292928ab",
+        "bytes": 3390
+      },
+      "crypto_study/round8/ANALYSIS_SCHEMA.md": {
+        "sha256": "a7f739fb9d4ceb8b75791f6b47c049bd6099594dcc3d195639f3fe76ebdc94a0",
+        "bytes": 16046
+      },
+      "crypto_study/round8/BASELINE_SOURCE_MANIFEST.json": {
+        "sha256": "efa7a1863fb79b34517041125c87bb3ba7c4f851faa6cad79effb2f74d23f542",
+        "bytes": 2364
+      },
+      "crypto_study/round8/FIGURE_PLAN.md": {
+        "sha256": "06cfc2155398af69665c3463c09f4cadc992111c5af369b462fb368d95c3fe5c",
+        "bytes": 5531
+      },
+      "crypto_study/round8/INPUT_MANIFEST.json": {
+        "sha256": "1db161fdce8bdd5bc5244ce7583a1fda5d9854039384da371e8596d87e7c4225",
+        "bytes": 78135
+      },
+      "crypto_study/round8/LITERATURE.md": {
+        "sha256": "3d6b6e55b4f515e22afcb319e761381db2c184ee5950214ee9404e01f7864c04",
+        "bytes": 3079
+      },
+      "crypto_study/round8/PLAN.md": {
+        "sha256": "f0df8b5857483296976d32463c52fd0d24abff19508e51dc4d1d3cb91717f1ca",
+        "bytes": 12047
+      },
+      "crypto_study/round8/README.md": {
+        "sha256": "19e5aee88c21112c3467956b51d03ebca74894df27cdc6d3517414a5ec2947d4",
+        "bytes": 9387
+      },
+      "crypto_study/round8/REGISTRATION.json": {
+        "sha256": "04b2077a532c9424b1657fa09b4e65a57192571ed193f05c1716eb31219a8b17",
+        "bytes": 6999
+      },
+      "crypto_study/round8/REGISTRATION_BINDINGS.json": {
+        "sha256": "b17b55a3e88fb962a1f2009e4fd22768e27d6421f3ae864ebb269007fae64948",
+        "bytes": 17834
+      },
+      "crypto_study/round8/SCHEDULE.json": {
+        "sha256": "ab66e6583f5118ba67b808c764a9f88ca80c810f10610c2b830f88f13b38a558",
+        "bytes": 202505
+      },
+      "crypto_study/round8/analysis.py": {
+        "sha256": "f8dcbeb9c283d6a10c1b731d023434af107df4a176b8656e2d9e37a1753e66e4",
+        "bytes": 65098
+      },
+      "crypto_study/round8/config.json": {
+        "sha256": "53ccf34d668629fff7788e66c3f89aedc4f84966b2c94561ad8c75874f704b87",
+        "bytes": 1894
+      },
+      "crypto_study/round8/control.py": {
+        "sha256": "7974193e6947a4a78f1ffef816126d884b30a574b63f8bec49d72d54387016c6",
+        "bytes": 11138
+      },
+      "crypto_study/round8/external/smt/LICENSE": {
+        "sha256": "279f34c3c19a8dba8d93891b5a70866e32b7e3a20fdaf91a16d937a526346a44",
+        "bytes": 1074
+      },
+      "crypto_study/round8/external/smt/README.md": {
+        "sha256": "be6d1f056c74b7391648bea108cd83c3b763472130e24a30a1a88a0a143417ae",
+        "bytes": 1655
+      },
+      "crypto_study/round8/external/smt/bench_test.go": {
+        "sha256": "5d527d40f0e24e03e1d69777abf50cb296d7858227bdada2e47bcf32c6b50be9",
+        "bytes": 720
+      },
+      "crypto_study/round8/external/smt/bulk_test.go": {
+        "sha256": "582905c65a0b1d956f4f577b88ccc089b4d3dfecdd1f76ffb0ea7178abc2a001",
+        "bytes": 3431
+      },
+      "crypto_study/round8/external/smt/deepsubtree.go": {
+        "sha256": "6651e17386cccb641ff1b587acf408cd336eaca79d8abbcc479aa2d4aec7c5aa",
+        "bytes": 3726
+      },
+      "crypto_study/round8/external/smt/deepsubtree_test.go": {
+        "sha256": "7011d9dc844fed805a638108dfaf76db39a28d56bdf6126c317a1eb9c2bc76b8",
+        "bytes": 5388
+      },
+      "crypto_study/round8/external/smt/fuzz/delete/fuzz.go": {
+        "sha256": "1beea639dc5cd6f6788de960578aba302b79da884aa908c40cb4ed7a3c436104",
+        "bytes": 635
+      },
+      "crypto_study/round8/external/smt/fuzz/fuzz.go": {
+        "sha256": "7513b52eecbe80a3833212f6cdac4354bf2ce006b1d80b2cf6fa9ec6299e226f",
+        "bytes": 1161
+      },
+      "crypto_study/round8/external/smt/go.mod": {
+        "sha256": "8d83b1eb147575d8cb47c092f39a43300c8f01354eddd4ebad604886652ef063",
+        "bytes": 43
+      },
+      "crypto_study/round8/external/smt/mapstore.go": {
+        "sha256": "6d95301eb6ccaaafffd9975f29b82e3ec2d9d56b6478a844e5b8e98abda546e0",
+        "bytes": 1263
+      },
+      "crypto_study/round8/external/smt/mapstore_test.go": {
+        "sha256": "334356b9df3ca69027c5ac9bdcf4a467e9e9c44589a6f2d0c27483364348e906",
+        "bytes": 976
+      },
+      "crypto_study/round8/external/smt/options.go": {
+        "sha256": "92003bd6b0f7dcdd5b95d3a1a77bf6912303771f14bf10ee17041bc10c82ce9c",
+        "bytes": 94
+      },
+      "crypto_study/round8/external/smt/proofs.go": {
+        "sha256": "e09eddfa68c703ae0c4dd58eec23af31bfc80ae0e80425e89fc71d2330594c46",
+        "bytes": 7520
+      },
+      "crypto_study/round8/external/smt/proofs_test.go": {
+        "sha256": "2dc5faa143d8b36623853e306dd84c408f8fe8663f315c963d326750940a255e",
+        "bytes": 9622
+      },
+      "crypto_study/round8/external/smt/smt.go": {
+        "sha256": "1adc0ba0f0f52949ab33aee21f39be2cd9cd6fb75d7aa13c1258c344987ec4c9",
+        "bytes": 14376
+      },
+      "crypto_study/round8/external/smt/smt_test.go": {
+        "sha256": "a8a442213ed8564d760a25e65feae58ebeb0e3beac06743a541d91f35966dbd5",
+        "bytes": 18817
+      },
+      "crypto_study/round8/external/smt/treehasher.go": {
+        "sha256": "59aa123653e6cb89581addc1945edaab1a9a181d9574c1437955b10c55c77689",
+        "bytes": 1808
+      },
+      "crypto_study/round8/external/smt/utils.go": {
+        "sha256": "5eab00e4bf7a4b8cd6a03d052c7ecc1cfadcac7a0d76caa0c1a951cf4003ca8d",
+        "bytes": 1124
+      },
+      "crypto_study/round8/plot_round8.py": {
+        "sha256": "f7ec85c594afab0096346a565b72eaaef918cf5867f53ac4ab4568b870fe9384",
+        "bytes": 51023
+      },
+      "crypto_study/round8/runner/CLI_SCHEMA.md": {
+        "sha256": "1c75c12b7f4fecb1830f4b0d0dc58dd408471a3b72fce8435017bf8b79ca1c13",
+        "bytes": 10763
+      },
+      "crypto_study/round8/runner/archive.go": {
+        "sha256": "5e3569ba310a1cda2d0fed97a82fed83a29c314c0b8a3c6471afe0af647a0b67",
+        "bytes": 9967
+      },
+      "crypto_study/round8/runner/client.go": {
+        "sha256": "3605c8d369f8eec8ef454e18171f95fba8bd63de5a91fb2f10aa56bb3350246d",
+        "bytes": 24017
+      },
+      "crypto_study/round8/runner/client_compact_boundary_test.go": {
+        "sha256": "5ae014664f4bb75dc955aeb3379b2c8802028279738005ea7e0d4b57ac730ad5",
+        "bytes": 1356
+      },
+      "crypto_study/round8/runner/client_safe_decode.go": {
+        "sha256": "8047e7a948bc6fa8500b56d9bf83f2a544caf409752df4ee74c68c52ae77c9df",
+        "bytes": 533
+      },
+      "crypto_study/round8/runner/client_test.go": {
+        "sha256": "840052649089c636d8da55a7c31ed4042adcca1ebfc41fd8cd6400e2ad054bdd",
+        "bytes": 13859
+      },
+      "crypto_study/round8/runner/clock.go": {
+        "sha256": "2916d738c854e1ef6266ae030fc8490316a0525f7b0a1cac5cbfeceeb7871d48",
+        "bytes": 248
+      },
+      "crypto_study/round8/runner/codec.go": {
+        "sha256": "e718c576900e2189507f77ed6b847232a9a12ab9ecd0f5de4d58beb5501dee52",
+        "bytes": 7502
+      },
+      "crypto_study/round8/runner/go.mod": {
+        "sha256": "2186c1bb91457014062ef2abbdf37c94ac0f6eb87eacae78e2b34ae3d7fe41ad",
+        "bytes": 131
+      },
+      "crypto_study/round8/runner/http.go": {
+        "sha256": "8f6203618d7cb97f1fae5f73ca43591fb7346644935b0a5860d61c0dea5eb953",
+        "bytes": 7500
+      },
+      "crypto_study/round8/runner/legacy.go": {
+        "sha256": "5d0026a930fbc6d8418af19e16e68a4e6effee73f5186603968486b9dc6e565c",
+        "bytes": 10390
+      },
+      "crypto_study/round8/runner/main.go": {
+        "sha256": "6c861ed71f7cb5473de2a857d12646411a2f33b0d341ded69aec80808e0d1598",
+        "bytes": 4467
+      },
+      "crypto_study/round8/runner/runner_test.go": {
+        "sha256": "42de0ea5642181b54f880ea5167cc2239dc8032bce3b30c4e43ffaac28f1a985",
+        "bytes": 9724
+      },
+      "crypto_study/round8/runner/snapshot.go": {
+        "sha256": "587f780994d8d4ada0c5c826b0c292c0b55ab87ae09dfae3e6f548cecd068c5a",
+        "bytes": 5184
+      },
+      "crypto_study/round8/server_manager.py": {
+        "sha256": "0172c200dfe2a02d1230f80188ae8b52a61ff8cb36c27bc1a72093ebb33d7973",
+        "bytes": 5663
+      },
+      "crypto_study/round8/test_analysis.py": {
+        "sha256": "04f5ed3a752cfec626aa1a69aad82dc595e70a58b0114af69c8e80027b6200da",
+        "bytes": 25443
+      },
+      "crypto_study/round8/test_control.py": {
+        "sha256": "4ffafc65a29fadc01970927f85dd4a52de3ad2432e17649cc49979ec9f030a1d",
+        "bytes": 2217
+      },
+      "tools/verify_round8_public.py": {
+        "sha256": "893f280bef3b48681c7df60669fe5fe6cf333543992d9a2f92b39022b2d2a80c",
+        "bytes": 24508
+      }
+    },
+    "release_support_files": {
+      "tools/verify_round8_public.py": {
+        "sha256": "893f280bef3b48681c7df60669fe5fe6cf333543992d9a2f92b39022b2d2a80c",
+        "bytes": 24508
+      },
+      "tools/stage_round8_public.py": {
+        "sha256": "bbbead2af324f7dc48cc8c88a4cf2b87f027a81afc223cb87574162bb40bb5b2",
+        "bytes": 8955
+      },
+      "tools/pack_round8_public.py": {
+        "sha256": "6711470058400d361dbfa54efbd4a596a34c75b14c729ca07c34fea7c5ae2ebf",
+        "bytes": 4449
+      },
+      "tools/build_round8_spec.py": {
+        "sha256": "9c0bd6faca603a0e1c3cf304bc50be8e271d3d11b29420c758c29d9bd22a1c48",
+        "bytes": 26436
+      },
+      "tools/test_verify_round8_public.py": {
+        "sha256": "aba713c41bc869526979ea960313eacc871ead5c24663df214d93a464bb3f933",
+        "bytes": 24004
+      },
+      "tools/test_stage_round8_public.py": {
+        "sha256": "1a378faa17d3fa4cf827996a79ce5cabca9f2b206a771d2170d466dbbe97988b",
+        "bytes": 4298
+      },
+      "tools/test_pack_round8_public.py": {
+        "sha256": "0a0265c530b18b0683ee8ed7c0b822f85b40e4b800430564ba2c3ef78e89d8df",
+        "bytes": 2894
+      },
+      "tools/test_build_round8_spec.py": {
+        "sha256": "924a58ea498eddfa53e12ee0d64dd96d42a4b2f499c0f56fd2d1bded8dac84a8",
+        "bytes": 4968
+      }
+    },
+    "scope": "Existing top-level provenance describes the v1.0 historical source. Round8 canonical source files retain their checked public/current hashes; metadata projections keep historical original bindings in REGISTRATION_BINDINGS.json. Release tools are postmeasurement infrastructure.",
+    "status": "verified_prepared_artifact; public availability is determined by the versioned release page"
+  }
 }
